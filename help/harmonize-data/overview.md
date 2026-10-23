@@ -6,27 +6,35 @@ exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
 TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
 autotag-review: '2026-05-01T09:10:10.340Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: '1382'
 ht-degree: 17%
-
 ---
-
 # データセットの概要を調和
 
 Mix Modelerのデータは、データソースによって異なります。 データは次のようになります。
@@ -48,9 +56,9 @@ Mix Modelerのファクター機能では、調整されたファクターのワ
 
 調整済み要因のワークフローの一部として：
 
-1. [&#x200B; データセット ルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)の因子データセットの因子に対して、調整済みフィールドを定義します。
+1. [ データセット ルール ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)の因子データセットの因子に対して、調整済みフィールドを定義します。
 1. [調和されたデータを](/help/harmonize-data/dataset-rules.md#sync-data)同期します。
-1. [&#x200B; モデル設定で要素](/help/models/build.md#configure)を使用します。
+1. [ モデル設定で要素](/help/models/build.md#configure)を使用します。
 
 ### 移行
 
@@ -148,10 +156,10 @@ Facebookのマーケティング活動データセットが含まれます。集
 
 簡素化された[例](#an-example-of-harmonized-data)のように、調和されたデータセットを構築するには、次の手順に従う必要があります。
 
-1. 既に使用可能なグローバルな調和フィールドを超えて使用する追加の[調和フィールド &#x200B;](fields.md)を定義します。
-1. [&#x200B; データセットルール &#x200B;](dataset-rules.md)を設定して、集計（要因または概要）またはエクスペリエンスイベントデータセットからフィールドを調和フィールドにマッピングします。
-1. 定義した標準フィールドと追加の調和フィールドを使用して、[&#x200B; マーケティングのタッチポイント &#x200B;](marketing-touchpoints.md)を定義します。
-1. 定義した標準フィールドと追加の調和フィールドを使用して、[&#x200B; コンバージョン &#x200B;](conversions.md)を定義します。
+1. 既に使用可能なグローバルな調和フィールドを超えて使用する追加の[調和フィールド ](fields.md)を定義します。
+1. [ データセットルール ](dataset-rules.md)を設定して、集計（要因または概要）またはエクスペリエンスイベントデータセットからフィールドを調和フィールドにマッピングします。
+1. 定義した標準フィールドと追加の調和フィールドを使用して、[ マーケティングのタッチポイント ](marketing-touchpoints.md)を定義します。
+1. 定義した標準フィールドと追加の調和フィールドを使用して、[ コンバージョン ](conversions.md)を定義します。
 
 
 ## 調和データの表示
@@ -162,7 +170,7 @@ Mix Modeler インターフェイスで、調和されたデータを確認す�
 
 1. 上部バーから&#x200B;**[!UICONTROL Harmonized data]**&#x200B;を選択します。 調整済みデータの概要は、定義したフィールド、データセットルール、マーケティングのタッチポイント、コンバージョンにもとづいて表示されます。
 
-   1. 調和データの再計算の基となる期間を再定義するには、**[!UICONTROL Date range]**&#x200B;の日付範囲を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用してデータ範囲を選択します。
+   1. 調和データの再計算の基となる期間を再定義するには、**[!UICONTROL Date range]**&#x200B;の日付範囲を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用してデータ範囲を選択します。
 
    1. 調和データテーブルに表示される調和フィールド列を変更するには、![設定](/help/assets/icons/Setting.svg)を使用して&#x200B;**[!UICONTROL Column settings]** ダイアログを開きます。
 
@@ -180,7 +188,7 @@ Mix Modeler インターフェイスで、調和されたデータを確認す�
 
 1. 必要に応じて、調和データをダウンロードできます。
 
-   1. ![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ &#x200B;]を選択します。
+   1. ![ ダウンロード ](/help/assets/icons/Download.svg) [!BADGE  ベータ ]を選択します。
    1. ポップアップで、![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**&#x200B;を選択します。
    1. **[!UICONTROL Report name]**&#x200B;を入力します（例：`Test Report`）。
    1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**&#x200B;を選択します。
