@@ -10,14 +10,14 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Marketing Campaign Analytics リリースプロセスについて詳しくは、[Marketing Campaign Analytics機能リリース ](/help/releases/latest.md)を参照してください。
+>この記事で説明する機能は、リリースの限定的なテスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Marketing Campaign Analytics リリースプロセスについて詳しくは、[Marketing Campaign Analytics機能リリース &#x200B;](/help/releases/latest.md)を参照してください。
 >
 
 ## リリースフェーズの制限付きテストセクション {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->このセクションで説明する機能は、リリースの限定テスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Marketing Campaign Analytics リリースプロセスについて詳しくは、[Marketing Campaign Analytics機能リリース ](/help/releases/latest.md)を参照してください。
+>このセクションで説明する機能は、リリースの限定テスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般公開された時点で削除されます。 Marketing Campaign Analytics リリースプロセスについて詳しくは、[Marketing Campaign Analytics機能リリース &#x200B;](/help/releases/latest.md)を参照してください。
 >
 
 

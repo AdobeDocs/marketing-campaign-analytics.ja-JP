@@ -92,7 +92,7 @@ Marketing Campaign Analyticsで使用できるデフォルトのグローバル�
 
    {style="table-layout:auto"}
 
-1. 特定の調和フィールドを検索するには、![検索](/help/assets/icons/Search.svg) **[!UICONTROL *調和フィールドを検索&#x200B;*]**を使用します。
+1. 特定の調和フィールドを検索するには、![検索](/help/assets/icons/Search.svg) **[!UICONTROL *調和フィールドを検索&#x200B;*]**&#x200B;を使用します。
 
 
 ### 調和フィールドの追加
@@ -116,7 +116,7 @@ Marketing Campaign Analyticsで使用できるデフォルトのグローバル�
 
    1. **[!UICONTROL Submit]**&#x200B;を選択して、調和フィールドを追加します。 調和フィールドを追加せずにダイアログを閉じるには、**[!UICONTROL Close]**&#x200B;を選択します。
 
-      ![ フィールドを作成](/help/assets/create-field.png)
+      ![&#x200B; フィールドを作成](/help/assets/create-field.png)
 
 
 ### 調和フィールドの編集
@@ -131,7 +131,7 @@ Marketing Campaign Analyticsで使用できるデフォルトのグローバル�
 
 1. 調和フィールドに変更を適用するには、**[!UICONTROL Submit]**&#x200B;を選択します。
 
-   ![ フィールドを編集](/help/assets/edit-field.png)
+   ![&#x200B; フィールドを編集](/help/assets/edit-field.png)
 
 ### 調和フィールドの削除
 

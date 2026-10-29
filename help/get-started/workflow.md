@@ -74,7 +74,7 @@ Marketing Campaign Analyticsのユーザーワークフローの概要につい�
 
 Marketing Campaign Analyticsの一般的なワークフローは、次のアクティビティで構成されます。
 
-![代替テキスト ](/help/assets/ApplicationWorkflow.svg)
+![代替テキスト &#x200B;](/help/assets/ApplicationWorkflow.svg)
 
 |  | アクティビティ | 説明 |
 |---|---|---|

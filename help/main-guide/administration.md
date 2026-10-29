@@ -61,7 +61,7 @@ Adobe Experience Cloud UIの場合：
 
 1. 左側のパネルの&#x200B;**[!UICONTROL ADMINISTRATION]**&#x200B;の下にある&#x200B;**[!UICONTROL Permissions]**&#x200B;を選択します。
 
-1. 左側のパネルから「![ ユーザー](/help/assets/icons/User.svg) **[!UICONTROL Roles]**」を選択します。
+1. 左側のパネルから「![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL Roles]**」を選択します。
 
 1. 既存のロールを選択するか、**[!UICONTROL Create role]**&#x200B;を使用してロールを作成します（例：**Marketing Campaign Analytics**）。 既存の役割を選択した場合は、![編集](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;を選択して、その役割の権限を編集します。 詳しくは、[役割の管理](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を参照してください。
 

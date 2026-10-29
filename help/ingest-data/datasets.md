@@ -42,11 +42,11 @@ Experience Platformに取り込み、Marketing Campaign Analyticsで使用する
 
 1. **[!UICONTROL SETUP]**&#x200B;の下にある![Data](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**&#x200B;を選択します。
 
-詳しくは、[ データセット UI ガイド ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)を参照してください。
+詳しくは、[&#x200B; データセット UI ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ データの取り込み](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)
+>* [&#x200B; データの取り込み](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)
 >* [スキーマ](schemas.md)
->* [ データ取り込みの概要（Experience Platform） ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)
->* [Source コネクタ （Experience Platform） ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
+>* [&#x200B; データ取り込みの概要（Experience Platform） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)
+>* [Source コネクタ （Experience Platform） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)

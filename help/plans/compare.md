@@ -57,7 +57,7 @@ Marketing Campaign Analytics プランのインターフェイスでプランを
 
 
 
-![ プランを比較](/help/assets/compare-plans.png)
+![&#x200B; プランを比較](/help/assets/compare-plans.png)
 
 各ビジュアライゼーションの個々のグラフ要素にカーソルを合わせると、より詳細なポップオーバーが表示されます。
 

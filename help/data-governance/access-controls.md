@@ -41,7 +41,7 @@ ht-degree: 25%
 
 Marketing Campaign Analyticsのアクセス制御は、[Adobe Admin Console](https://adminconsole.adobe.com/)のExperience PlatformおよびExperience Platformの[権限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#platform-permissions)を通じて提供されます。 この機能は、権限とサンドボックスをユーザーにリンクさせるAdmin Consoleの製品プロファイルを活用します。
 
-アクセス制御について詳しくは、[ アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)を参照してください。
+アクセス制御について詳しくは、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)を参照してください。
 
 ## 役割ベースのアクセス制御
 
@@ -59,4 +59,4 @@ Experience PlatformでMarketing Campaign Analytics ユーザーとユーザー�
 
 * データセットルールの作成時に制限されているスキーマフィールドが表示されません，
 * 自分に制限されている1つ以上のスキーマフィールドのマッピングを表示または編集できません。 このような制限付きフィールドを含むデータセットルールを編集または表示すると、次の画面が表示されます。
-  ![ アクションは許可されていません](/help/assets/action-not-permitted.png)
+  ![&#x200B; アクションは許可されていません](/help/assets/action-not-permitted.png)

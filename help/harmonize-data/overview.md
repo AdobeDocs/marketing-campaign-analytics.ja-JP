@@ -62,9 +62,9 @@ Marketing Campaign Analyticsのファクター機能では、調整されたフ�
 
 調整済み要因のワークフローの一部として：
 
-1. [ データセット ルール ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)の因子データセットの因子に対して、調整済みフィールドを定義します。
+1. [&#x200B; データセット ルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)の因子データセットの因子に対して、調整済みフィールドを定義します。
 1. [調和されたデータを](/help/harmonize-data/dataset-rules.md#sync-data)同期します。
-1. [ モデル設定で要素](/help/models/build.md#configure)を使用します。
+1. [&#x200B; モデル設定で要素](/help/models/build.md#configure)を使用します。
 
 ### 移行
 
@@ -162,10 +162,10 @@ Facebookのマーケティング活動データセットが含まれます。集
 
 簡素化された[例](#an-example-of-harmonized-data)のように、調和されたデータセットを構築するには、次の手順に従う必要があります。
 
-1. 既に使用可能なグローバルな調和フィールドを超えて使用する追加の[調和フィールド ](fields.md)を定義します。
-1. [ データセットルール ](dataset-rules.md)を設定して、集計（要因または概要）またはエクスペリエンスイベントデータセットからフィールドを調和フィールドにマッピングします。
-1. 定義した標準フィールドと追加の調和フィールドを使用して、[ マーケティングのタッチポイント ](marketing-touchpoints.md)を定義します。
-1. 定義した標準フィールドと追加の調和フィールドを使用して、[ コンバージョン ](conversions.md)を定義します。
+1. 既に使用可能なグローバルな調和フィールドを超えて使用する追加の[調和フィールド &#x200B;](fields.md)を定義します。
+1. [&#x200B; データセットルール &#x200B;](dataset-rules.md)を設定して、集計（要因または概要）またはエクスペリエンスイベントデータセットからフィールドを調和フィールドにマッピングします。
+1. 定義した標準フィールドと追加の調和フィールドを使用して、[&#x200B; マーケティングのタッチポイント &#x200B;](marketing-touchpoints.md)を定義します。
+1. 定義した標準フィールドと追加の調和フィールドを使用して、[&#x200B; コンバージョン &#x200B;](conversions.md)を定義します。
 
 
 ## 調和データの表示
@@ -176,7 +176,7 @@ Marketing Campaign Analytics インターフェイスで、調和されたデー
 
 1. 上部バーから&#x200B;**[!UICONTROL Harmonized data]**&#x200B;を選択します。 調整済みデータの概要は、定義したフィールド、データセットルール、マーケティングのタッチポイント、コンバージョンにもとづいて表示されます。
 
-   1. 調和データの再計算の基となる期間を再定義するには、**[!UICONTROL Date range]**&#x200B;の日付範囲を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用してデータ範囲を選択します。
+   1. 調和データの再計算の基となる期間を再定義するには、**[!UICONTROL Date range]**&#x200B;の日付範囲を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用してデータ範囲を選択します。
 
    1. 調和データテーブルに表示される調和フィールド列を変更するには、![設定](/help/assets/icons/Setting.svg)を使用して&#x200B;**[!UICONTROL Column settings]** ダイアログを開きます。
 
@@ -194,7 +194,7 @@ Marketing Campaign Analytics インターフェイスで、調和されたデー
 
 1. 必要に応じて、調和データをダウンロードできます。
 
-   1. ![ ダウンロード ](/help/assets/icons/Download.svg) [!BADGE  ベータ ]を選択します。
+   1. ![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ &#x200B;]を選択します。
    1. ポップアップで、![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**&#x200B;を選択します。
    1. **[!UICONTROL Report name]**&#x200B;を入力します（例：`Test Report`）。
    1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**&#x200B;を選択します。

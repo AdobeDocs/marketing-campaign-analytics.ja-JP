@@ -47,9 +47,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Marketing Campaign Analytics ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}」タブはベータ機能であり、その機能は変更される可能性があります。 この機能は、限られた数のお客様にご利用いただけます。
+>Marketing Campaign Analytics ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}」タブはベータ機能であり、その機能は変更される可能性があります。 この機能は、限られた数のお客様にご利用いただけます。
 
-Marketing Campaign Analytics ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} タブには、計画に対するマーケティングのパフォーマンスを監視するためのトラッキングダッシュボードが用意されています。 ステータスカードとビジュアライゼーション機能を利用して、実際のパフォーマンスと計画されたパフォーマンスを追跡することができます。
+Marketing Campaign Analytics ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} タブには、計画に対するマーケティングのパフォーマンスを監視するためのトラッキングダッシュボードが用意されています。 ステータスカードとビジュアライゼーション機能を利用して、実際のパフォーマンスと計画されたパフォーマンスを追跡することができます。
 
 ダッシュボードは、ギャップを特定し、リスクや機会を特定し、計画や予算をタイムリーに調整するのに役立ちます。
 
@@ -57,18 +57,18 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 * **[!UICONTROL Plan name]** ドロップダウンメニューからプランを選択し、**[!UICONTROL _オプションを選択…_]**&#x200B;します。
 
-* 日付期間を指定します。 日付期間を変更するには、開始日と終了日を手動で入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して日付期間を選択します。
+* 日付期間を指定します。 日付期間を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付期間を選択します。
 
 「**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative}」タブには、次の情報が表示されます。
 
-* [KPI ステータスカード ](#kpi-status-cards):
+* [KPI ステータスカード &#x200B;](#kpi-status-cards):
 
   * [予算](#budget)
   * [売上高](#revenue)
   * [ROI](#roi)
   * [KPI](#kpi)
 
-* [ ビジュアライゼーション ](#visualizations):
+* [&#x200B; ビジュアライゼーション &#x200B;](#visualizations):
   * [*指標*：実際の指標と計画された指標の比較](#metric-actual-vs-planned)
   * [*指標*：実際の指標と&#x200B;*精度*&#x200B;で計画された指標の比較](#metric-actual-vs-planned-by-granularity)
   * [チャネル *指標* by *精度*](#channel-metric-by-granularity)
@@ -78,7 +78,7 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 ## KPI ステータスカード
 
-![KPI ステータスカード ](../assets/performance-to-plan-kpi-cards.png)
+![KPI ステータスカード &#x200B;](../assets/performance-to-plan-kpi-cards.png)
 
 
 ### 予算
@@ -113,7 +113,7 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 ビジュアライゼーションの任意の行、棒グラフまたは散布要素にカーソルを合わせると、追加情報を含むポップアップが表示されます。
 
-![ ビジュアライゼーション ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; ビジュアライゼーション &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### *指標*：実際の指標と計画された指標の比較
 

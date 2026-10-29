@@ -49,7 +49,7 @@ Marketing Campaign Analyticsは、さまざまなウォールドガーデンか�
 * ウォールドガーデン（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データからデータを集約または要約します。
 * モデル構築に役立つ内部要因または外部要因を含む、マーケティング以外の集計データまたは概要データ。
 
-Experience Platformでサポートされている任意の種類の仕組みを使用して、エクスペリエンスイベントレベル、マーケティング活動データ、その他のソースからデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングやバッチ取り込みなど。 Adobe Marketing Campaign Analyticsで使用するためにExperience Platformでデータを取り込む方法について詳しくは、[ データ取り込みの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)を参照してください。
+Experience Platformでサポートされている任意の種類の仕組みを使用して、エクスペリエンスイベントレベル、マーケティング活動データ、その他のソースからデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングやバッチ取り込みなど。 Adobe Marketing Campaign Analyticsで使用するためにExperience Platformでデータを取り込む方法について詳しくは、[&#x200B; データ取り込みの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)を参照してください。
 
 ## ガイドライン
 
@@ -113,9 +113,9 @@ Marketing Campaign Analyticsでデータを使用するには、データセッ�
 Marketing Campaign Analyticsでデータが適切に使用可能かどうかを検証するには、次の操作を行います。
 
 * [概要](/help/overview.md)でビジュアライゼーションを使用します。
-* 調和されたデータセットの[調和されたデータ ](/help/harmonize-data/overview.md)からデータをダウンロードして検査します。
+* 調和されたデータセットの[調和されたデータ &#x200B;](/help/harmonize-data/overview.md)からデータをダウンロードして検査します。
 
-データがExperience Platformに正しく取り込まれているかどうかを検証するには、Experience Platform クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home)を使用してSQL クエリを[書き込み、実行できます。
+データがExperience Platformに正しく取り込まれているかどうかを検証するには、Experience Platform クエリサービス [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home)を使用してSQL クエリを書き込み、実行できます。
 
 
 >[!MORELIKETHIS]
