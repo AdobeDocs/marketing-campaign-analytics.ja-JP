@@ -69,7 +69,7 @@ ht-degree: 1%
 
 Marketing Campaign Analyticsのユーザーワークフローの概要については、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440204/?captions=jpn&learn=on)
 
 
 Marketing Campaign Analyticsの一般的なワークフローは、次のアクティビティで構成されます。
