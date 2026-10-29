@@ -42,7 +42,7 @@ Experience Platformに取り込み、Marketing Campaign Analyticsで使用する
 
 1. **[!UICONTROL SETUP]**&#x200B;の下にある![Data](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**&#x200B;を選択します。
 
-詳しくは、[&#x200B; データセット UI ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)を参照してください。
+詳しくは、[&#x200B; データセット UI ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja)を参照してください。
 
 >[!MORELIKETHIS]
 >

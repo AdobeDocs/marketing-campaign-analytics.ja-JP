@@ -41,7 +41,7 @@ ht-degree: 9%
 
 {{mm-mca-rebranding}}
 
-ワークフローを実行してモデルを作成し、モデルの設定を送信すると、[&#x200B; ポリシーの適用](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)が違反がないか確認します。 ポリシー違反が発生した場合は、1 つ以上のポリシーに違反したことを示すポップオーバーが表示されます。 このチェックは、Experience Platform内のデータ運用とマーケティングアクションがデータ使用ポリシーに準拠していることを確認するためのものです。
+ワークフローを実行してモデルを作成し、モデルの設定を送信すると、[&#x200B; ポリシーの適用](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)が違反がないか確認します。 ポリシー違反が発生した場合は、1 つ以上のポリシーに違反したことを示すポップオーバーが表示されます。 このチェックは、Experience Platform内のデータ運用とマーケティングアクションがデータ使用ポリシーに準拠していることを確認するためのものです。
 
 デフォルトでは、Marketing Campaign Analyticsは、次のラベルとマーケティングアクションに関連付けられたAdobe定義ポリシーの違反をチェックします。
 
@@ -90,7 +90,7 @@ Currently,  Marketing Campaign Analytics does not support all of the data govern
 
 >[!MORELIKETHIS]
 >
->[&#x200B; データ使用ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[&#x200B; データ使用ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/overview)
 >
 >
 
