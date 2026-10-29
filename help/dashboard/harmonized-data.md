@@ -1,16 +1,18 @@
 ---
 title: 統一されたデータダッシュボード
-description: Mix Modelerのharmonized data overview ダッシュボードの使用方法について説明します。
+description: Marketing Campaign Analyticsのharmonized data overview ダッシュボードの使用方法について説明します。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
 autotag-review: '2026-05-01T09:17:34.958Z'
-TQID: 'https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE'
+TQID: 'https://experienceleague.adobe.com/aK7JDAfi4f-MnQ4EelKLGlL-JBnFUWuSs3VrD8264qE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
     internal-label: Administration
 subfeature_v2:
@@ -28,22 +30,26 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 0%
 ---
 # 調和されたデータ
 
-Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Harmonized data]**」タブには、取り込んだデータと調和データの設定の一部として使用するように設定した、調和データに関するインサイトが表示されます。
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analytics ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Harmonized data]**」タブには、取り込んだデータと調和データの設定の一部として使用するように設定した、調和データに関するインサイトが表示されます。
 
 概要には、4つのKPI ステータスカードのビジュアライゼーション（一番上の行）と、他の6つの設定可能なビジュアライゼーションが表示されます。
 
-ビジュアライゼーションに表示するデータの日付期間を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して期間を選択します。
+ビジュアライゼーションに表示するデータの日付期間を変更するには、開始日と終了日を手動で入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して期間を選択します。
 
 ## データフィルター
 
-![&#x200B; フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]** ペインを使用して、すべてのビジュアライゼーションに表示されるデータをフィルタリングできます。
+![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]** ペインを使用して、すべてのビジュアライゼーションに表示されるデータをフィルタリングできます。
 
 各カテゴリ （**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Channels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]**、および&#x200B;**[!UICONTROL Traffic Source]**）に1つ以上のフィルターを選択します。
 
@@ -87,6 +93,6 @@ Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICO
 
         ![調和データウィジェットの編集](/help/assets/edit-harmonized-data-widget.png)
 
-        データが利用できないためにプレビューをレンダリングできない場合は、![&#x200B; データエラー](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available]が表示されます。
+        データが利用できないためにプレビューをレンダリングできない場合は、![ データエラー](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available]が表示されます。
 
      1. ビジュアライゼーションに変更を適用するには、**[!UICONTROL Apply]**&#x200B;を選択します。 現在のビジュアライゼーションに加えられた変更をキャンセルするには、**[!UICONTROL Cancel]**&#x200B;を選択します。

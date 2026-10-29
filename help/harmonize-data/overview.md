@@ -1,15 +1,20 @@
 ---
 title: データセットの概要を調和
-description: Mix Modelerでデータを調和させる方法をご確認ください。
+description: Marketing Campaign Analyticsでデータを調和させる方法をご確認ください。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+autotag-review: '2026-05-01T09:10:10.340Z'
+TQID: 'https://experienceleague.adobe.com/QFpx2-PjU-GBiyocCsL-myjLoETUJGOikkLcdaGDlGk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
     internal-label: Conversions
@@ -29,20 +34,21 @@ role_v2:
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality
-autotag-review: '2026-05-01T09:10:10.340Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1389'
 ht-degree: 17%
 ---
 # データセットの概要を調和
 
-Mix Modelerのデータは、データソースによって異なります。 データは次のようになります。
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analyticsのデータは、データソースによって異なります。 データは次のようになります。
 
 * ウォールドガーデンのデータソースから収集したデータや、屋外広告キャンペーン、イベント、物理的な広告キャンペーンの実行から収集したオフライン広告データ（支出など）などを集計し、
 * イベントデータ :1st パーティデータソースからのデータなど このイベントデータは、Adobe AnalyticsからAdobe Analytics ソースコネクタを介して収集するか、Experience Platform Web、モバイル SDK、Edge Network APIを介して収集するか、ソースコネクタを使用して取り込んだデータを使用して収集できます。
 
-Mix Modelerの調和サービスは、集約データとイベントデータを一貫性のあるデータビューに統合します。 このデータビューは、Mix Modelerのモデルのソースです。 このサービスは、様々なデータセットにわたって最も高い粒度を使用します。 例えば、あるデータセットの精度が月単位で、残りのデータセットの精度が週単位と日単位の精度である場合、調和サービスは月単位の精度を使用してデータビューを作成します。
+Marketing Campaign Analyticsの調和サービスは、集約データとイベントデータを一貫性のあるデータビューに統合します。 このデータビューは、Marketing Campaign Analyticsのモデルのソースです。 このサービスは、様々なデータセットにわたって最も高い粒度を使用します。 例えば、あるデータセットの精度が月単位で、残りのデータセットの精度が週単位と日単位の精度である場合、調和サービスは月単位の精度を使用してデータビューを作成します。
 
 ## 要因
 
@@ -52,13 +58,13 @@ Mix Modelerの調和サービスは、集約データとイベントデータを
 
 * 外部要因は、組織がコントロールできない要因ですが、達成するコンバージョンに影響を与える可能性があります。 CPI、S&amp;P 500などの例を紹介します。
 
-Mix Modelerのファクター機能では、調整されたファクターのワークフローを使用します。 このワークフローは、要因の管理方法を簡素化し、モデル間の一貫性を確保し、直感的なエクスペリエンスを提供します。
+Marketing Campaign Analyticsのファクター機能では、調整されたファクターのワークフローを使用します。 このワークフローは、要因の管理方法を簡素化し、モデル間の一貫性を確保し、直感的なエクスペリエンスを提供します。
 
 調整済み要因のワークフローの一部として：
 
-1. [&#x200B; データセット ルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)の因子データセットの因子に対して、調整済みフィールドを定義します。
+1. [ データセット ルール ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)の因子データセットの因子に対して、調整済みフィールドを定義します。
 1. [調和されたデータを](/help/harmonize-data/dataset-rules.md#sync-data)同期します。
-1. [&#x200B; モデル設定で要素](/help/models/build.md#configure)を使用します。
+1. [ モデル設定で要素](/help/models/build.md#configure)を使用します。
 
 ### 移行
 
@@ -71,7 +77,7 @@ Mix Modelerのファクター機能では、調整されたファクターのワ
 
 ## 調和されたデータの例
 
-Mix Modelerで次のデータセットを使用できることが想定されます。
+Marketing Campaign Analyticsで次のデータセットを使用できることが想定されます。
 
 **データセット 1**
 
@@ -156,21 +162,21 @@ Facebookのマーケティング活動データセットが含まれます。集
 
 簡素化された[例](#an-example-of-harmonized-data)のように、調和されたデータセットを構築するには、次の手順に従う必要があります。
 
-1. 既に使用可能なグローバルな調和フィールドを超えて使用する追加の[調和フィールド &#x200B;](fields.md)を定義します。
-1. [&#x200B; データセットルール &#x200B;](dataset-rules.md)を設定して、集計（要因または概要）またはエクスペリエンスイベントデータセットからフィールドを調和フィールドにマッピングします。
-1. 定義した標準フィールドと追加の調和フィールドを使用して、[&#x200B; マーケティングのタッチポイント &#x200B;](marketing-touchpoints.md)を定義します。
-1. 定義した標準フィールドと追加の調和フィールドを使用して、[&#x200B; コンバージョン &#x200B;](conversions.md)を定義します。
+1. 既に使用可能なグローバルな調和フィールドを超えて使用する追加の[調和フィールド ](fields.md)を定義します。
+1. [ データセットルール ](dataset-rules.md)を設定して、集計（要因または概要）またはエクスペリエンスイベントデータセットからフィールドを調和フィールドにマッピングします。
+1. 定義した標準フィールドと追加の調和フィールドを使用して、[ マーケティングのタッチポイント ](marketing-touchpoints.md)を定義します。
+1. 定義した標準フィールドと追加の調和フィールドを使用して、[ コンバージョン ](conversions.md)を定義します。
 
 
 ## 調和データの表示
 
-Mix Modeler インターフェイスで、調和されたデータを確認するには、次の手順を実行します。
+Marketing Campaign Analytics インターフェイスで、調和されたデータを確認するには、次の手順を実行します。
 
 1. 左側のパネルから「![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]**」を選択します。
 
 1. 上部バーから&#x200B;**[!UICONTROL Harmonized data]**&#x200B;を選択します。 調整済みデータの概要は、定義したフィールド、データセットルール、マーケティングのタッチポイント、コンバージョンにもとづいて表示されます。
 
-   1. 調和データの再計算の基となる期間を再定義するには、**[!UICONTROL Date range]**&#x200B;の日付範囲を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用してデータ範囲を選択します。
+   1. 調和データの再計算の基となる期間を再定義するには、**[!UICONTROL Date range]**&#x200B;の日付範囲を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用してデータ範囲を選択します。
 
    1. 調和データテーブルに表示される調和フィールド列を変更するには、![設定](/help/assets/icons/Setting.svg)を使用して&#x200B;**[!UICONTROL Column settings]** ダイアログを開きます。
 
@@ -188,7 +194,7 @@ Mix Modeler インターフェイスで、調和されたデータを確認す�
 
 1. 必要に応じて、調和データをダウンロードできます。
 
-   1. ![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ &#x200B;]を選択します。
+   1. ![ ダウンロード ](/help/assets/icons/Download.svg) [!BADGE  ベータ ]を選択します。
    1. ポップアップで、![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**&#x200B;を選択します。
    1. **[!UICONTROL Report name]**&#x200B;を入力します（例：`Test Report`）。
    1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**&#x200B;を選択します。

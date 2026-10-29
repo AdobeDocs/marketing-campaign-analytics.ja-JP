@@ -1,28 +1,34 @@
 ---
 title: 調和されたフィールド
-description: Mix Modelerでデータを調和させる一環として使用するフィールドを定義する方法について説明します。
+description: Marketing Campaign Analyticsでデータを調和させる一環として使用するフィールドを定義する方法について説明します。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+autotag-review: '2026-05-01T09:13:17.577Z'
+TQID: 'https://experienceleague.adobe.com/ZmBwgBCVOPCVJ1pdniya3RvjWagTQuLSQoxluuDQLbc'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:13:17.577Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '694'
 ht-degree: 11%
-
 ---
-
 # 調和されたフィールド
+
+{{mm-mca-rebranding}}
 
 統一されたフィールドを使用すると、概念的に同じデータのフィールドを定義できます。これらのフィールドは、データの定義が異なるソースから作成されます。 例えば、クリック指標は、データソースごとに定義し、名前を付けることができます。 「統一されたクリック数」フィールドでは、クリックデータの様々なソースに基づいて、クリック指標の一般的な命名規則を定義できます。
 
@@ -30,7 +36,7 @@ ht-degree: 11%
 
 ## グローバルな調和フィールド
 
-Mix Modelerで使用できるデフォルトのグローバル調和フィールドは次のとおりです。
+Marketing Campaign Analyticsで使用できるデフォルトのグローバル調和フィールドは次のとおりです。
 
 
 | フィールド名 | 表示名 | カテゴリ | データタイプ | コメント |
@@ -65,7 +71,7 @@ Mix Modelerで使用できるデフォルトのグローバル調和フィール
 
 ## 統一されたフィールドの管理
 
-使用可能な調和フィールドの表を表示するには、Mix Modeler インターフェイスで次の操作を行います。
+使用可能な調和フィールドの表を表示するには、Marketing Campaign Analytics インターフェイスで次の操作を行います。
 
 1. 左側のパネルから「![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**」を選択します。
 
@@ -86,12 +92,12 @@ Mix Modelerで使用できるデフォルトのグローバル調和フィール
 
    {style="table-layout:auto"}
 
-1. 特定の調和フィールドを検索するには、![検索](/help/assets/icons/Search.svg) **[!UICONTROL *調和フィールドを検索&#x200B;*]**&#x200B;を使用します。
+1. 特定の調和フィールドを検索するには、![検索](/help/assets/icons/Search.svg) **[!UICONTROL *調和フィールドを検索&#x200B;*]**を使用します。
 
 
 ### 調和フィールドの追加
 
-調和されたフィールドを追加するには、Mix Modelerの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスで次の操作を行います。
+調和されたフィールドを追加するには、Marketing Campaign Analyticsの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスで次の操作を行います。
 
 1. 「![追加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**」を選択します。
 
@@ -110,14 +116,14 @@ Mix Modelerで使用できるデフォルトのグローバル調和フィール
 
    1. **[!UICONTROL Submit]**&#x200B;を選択して、調和フィールドを追加します。 調和フィールドを追加せずにダイアログを閉じるには、**[!UICONTROL Close]**&#x200B;を選択します。
 
-      ![&#x200B; フィールドを作成](/help/assets/create-field.png)
+      ![ フィールドを作成](/help/assets/create-field.png)
 
 
 ### 調和フィールドの編集
 
 以前に作成した調和フィールドのみを編集できます（所有者はクライアントです）。 グローバルに統一されたフィールドは編集できません。
 
-調和されたフィールドを編集するには、Mix Modelerの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスで次の操作を行います。
+調和されたフィールドを編集するには、Marketing Campaign Analyticsの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスで次の操作を行います。
 
 1. 編集する調和フィールドを選択します。 例：**[!UICONTROL Region]**。
 
@@ -125,13 +131,13 @@ Mix Modelerで使用できるデフォルトのグローバル調和フィール
 
 1. 調和フィールドに変更を適用するには、**[!UICONTROL Submit]**&#x200B;を選択します。
 
-   ![&#x200B; フィールドを編集](/help/assets/edit-field.png)
+   ![ フィールドを編集](/help/assets/edit-field.png)
 
 ### 調和フィールドの削除
 
 以前に作成した調整済みフィールドのみを削除できます（所有者はクライアントです）。 グローバルに統一されたフィールドは削除できません。
 
-調和されたフィールドを削除するには、Mix Modelerの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスで次の操作を行います。
+調和されたフィールドを削除するには、Marketing Campaign Analyticsの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスで次の操作を行います。
 
 1. 削除する調整済みフィールド （例：**[!UICONTROL Region]**）を選択します。
 
