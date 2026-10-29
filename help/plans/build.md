@@ -36,9 +36,9 @@ Marketing Campaign Analyticsでは、プラン ウィザードを使用してプ
    1. **[!UICONTROL Setup]** セクション：
 
       1. **[!UICONTROL Plan name]**&#x200B;を入力します（例：`Goal based plan`）。 **[!UICONTROL Description]**&#x200B;を入力します（例：`A goal based plan`）。
-      1. **[!UICONTROL _から&#x200B;**[!UICONTROL Model]**を選択します。オプションを選択してください。_.]**
+      1. **[!UICONTROL _から&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**を選択します。オプションを選択してください。_.]**
 
-         ![ プラン設定](/help/assets/plan-setup.png)
+         ![&#x200B; プラン設定](/help/assets/plan-setup.png)
 
    1. 「**[!UICONTROL Goal]**」セクションで、プランを最適化する目標を選択します。 次のいずれかを選択できます
 
@@ -51,9 +51,9 @@ Marketing Campaign Analyticsでは、プラン ウィザードを使用してプ
         1. **[!UICONTROL Optimize]** コンテナ内：
            1. **[!UICONTROL Select conversion]** ドロップダウンメニューからコンバージョンを選択します。
            1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
-        1. 日付を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、**[!UICONTROL Date range]**&#x200B;を指定します。
-        1. **[!UICONTROL Budget]**を入力します。
-           各予算を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**を選択します。
+        1. 日付を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、**[!UICONTROL Date range]**&#x200B;を指定します。
+        1. **[!UICONTROL Budget]**&#x200B;を入力します。
+           各予算を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;を選択します。
            日付範囲と関連する予算を削除するには、![閉じる](/help/assets/icons/Close.svg)を選択します。
         1. プランを制限するオプションの最大予算を定義するには、次の手順を実行します。
            1. **[!UICONTROL Maximize budget]**&#x200B;を切り替えます。
@@ -62,15 +62,15 @@ Marketing Campaign Analyticsでは、プラン ウィザードを使用してプ
 
       * **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
-        ![ プランのターゲット ](../assets/plan-target.png)
+        ![&#x200B; プランのターゲット &#x200B;](../assets/plan-target.png)
 
         1. **[!UICONTROL Optimize]** コンテナ内
            1. **[!UICONTROL Select conversion]** ドロップダウンメニューからコンバージョンを選択します。
            1. **[!UICONTROL Select target metric]** ドロップダウンメニューからターゲット指標を選択します。 **[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;または&#x200B;**[!UICONTROL ROI]**&#x200B;のいずれかを選択できます。
            1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
-        1. 日付を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、日付範囲を指定します。
-        1. 選択したターゲット指標の値を入力します。 例えば、**[!UICONTROL Total Conversions]**&#x200B;の数値、**[!UICONTROL Paid Marketing ROI]**&#x200B;の割合、**[!UICONTROL Paid Marketing CPA]**&#x200B;と&#x200B;**[!UICONTROL Total Revenue]**の通貨値などです。
-           ターゲット指標を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**を選択します。
+        1. 日付を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、日付範囲を指定します。
+        1. 選択したターゲット指標の値を入力します。 例えば、**[!UICONTROL Total Conversions]**&#x200B;の数値、**[!UICONTROL Paid Marketing ROI]**&#x200B;の割合、**[!UICONTROL Paid Marketing CPA]**&#x200B;と&#x200B;**[!UICONTROL Total Revenue]**&#x200B;の通貨値などです。
+           ターゲット指標を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;を選択します。
            日付範囲と関連するターゲット指標を削除するには、![閉じる](/help/assets/icons/Close.svg)を選択します。
         1. プランを制限するオプションの最大予算を定義するには、次の手順を実行します。
            1. **[!UICONTROL Maximize budget]**&#x200B;を切り替えます。
@@ -81,7 +81,7 @@ Marketing Campaign Analyticsでは、プラン ウィザードを使用してプ
 
 1. **[!UICONTROL Done with all required fields]** ダイアログで、次の操作を行います。
 
-   ![ プラン完了](/help/assets/plan-done-required-fields.png)
+   ![&#x200B; プラン完了](/help/assets/plan-done-required-fields.png)
 
    * 予測ROIでAI推奨プランを生成する場合は、![NewPlan](/help/assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]**&#x200B;を選択します。 **[!UICONTROL OK]** を選択します。 プランが作成されました。
 
@@ -127,7 +127,7 @@ Marketing Campaign Analyticsでは、プラン ウィザードを使用してプ
 
 1. 「**[!UICONTROL Advanced configurations]**」セクションに、オプションの詳細設定を入力できます。
 
-   ![ プランの概要](../assets/plan-advanced-configurations.png)
+   ![&#x200B; プランの概要](../assets/plan-advanced-configurations.png)
 
    * プラン名、モデル、日付範囲、総予算が要約されます。
 
