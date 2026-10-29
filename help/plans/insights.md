@@ -1,18 +1,18 @@
 ---
 title: プランインサイト
-description: Mix Modelerでプランのインサイトを確認し、プランを編集する方法を説明します。
+description: Marketing Campaign Analyticsでプランのインサイトを確認し、プランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 autotag-review: '2026-04-28T06:09:37.014Z'
-TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
+TQID: 'https://experienceleague.adobe.com/K1G-WhaMSmzx0tJWgy6NrdDj5jQQRDJQjdRle7-ayJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-    internal-label: Models
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -24,13 +24,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # プランインサイト
 
+{{mm-mca-rebranding}}
 
 [!UICONTROL Plan insights]では、プランのインサイトが作成され、プランの基礎となる[!UICONTROL Model]、[!UICONTROL Data range]、および[!UICONTROL Plan target]が表示されます。
 
@@ -127,14 +128,14 @@ ht-degree: 0%
    - 傾向分析のサポート：
    - 効果的な戦略を特定し、計画を立てる際の失敗を回避する。
 
-   過去の参照期間を選択すると、以前の支出パターンの環境設定に合わせて、Mix Modelerのプランニング機能で期待内のプランを作成できます。 これらの計画は、最終的に関係者の信頼を高め、マーケティングプランが戦略的かつ効率的であり、実績のあるパフォーマンスデータとビジネスニーズに基づいていることを確認する必要があります。
+   過去の参照期間を選択すると、以前の支出パターンの環境設定に合わせて、Marketing Campaign Analyticsのプランニング機能で期待内のプランを作成できます。 これらの計画は、最終的に関係者の信頼を高め、マーケティングプランが戦略的かつ効率的であり、実績のあるパフォーマンスデータとビジネスニーズに基づいていることを確認する必要があります。
 
    ![選択した経費](/help/assets/plan-spend-selection.png)
 
    1. 「**[!UICONTROL Spend pattern]**」を選択します。
 
       - 既定のオプションは&#x200B;**[!UICONTROL Automatic]**&#x200B;です。
-      - **[!UICONTROL Historical reference]**&#x200B;を選択し、**[!UICONTROL Start date]**&#x200B;を入力して、Mix Modelerで既に利用可能な過去のマーケティング費用データを参照します。 **[!UICONTROL End date]**&#x200B;は、選択したデータ範囲に基づいて自動的に決定されます。 提案開始日は、利用可能な過去のマーケティング費用データの中で最初に利用可能なものです。 存在しない履歴参照期間を選択したことを示すには、![AlertRed](/help/assets/icons/AlertRed.svg)が表示されます。
+      - **[!UICONTROL Historical reference]**&#x200B;を選択し、**[!UICONTROL Start date]**&#x200B;を入力して、Marketing Campaign Analyticsで既に利用可能な過去のマーケティング費用データを参照します。 **[!UICONTROL End date]**&#x200B;は、選択したデータ範囲に基づいて自動的に決定されます。 提案開始日は、利用可能な過去のマーケティング費用データの中で最初に利用可能なものです。 存在しない履歴参照期間を選択したことを示すには、![AlertRed](/help/assets/icons/AlertRed.svg)が表示されます。
 
 
    1. 各チャネルの予算を変更するには、**[!UICONTROL Min]**&#x200B;と&#x200B;**[!UICONTROL Max]**&#x200B;の値を変更するか、スライダーを使用します。
@@ -193,7 +194,7 @@ ht-degree: 0%
 
    - プラン名、モデル、日付範囲、総予算が要約されます。
 
-   - デフォルトでは、Mix Modelerは最新の過去の季節データを使用して、コンバージョンあたりの平均売上を自動的に計算します。 **[!UICONTROL Average Revenue per conversion]**&#x200B;では、コンバージョンあたりの平均売上を定義できます。
+   - デフォルトでは、Marketing Campaign Analyticsは最新の過去の季節データを使用して、コンバージョンあたりの平均売上を自動的に計算します。 **[!UICONTROL Average Revenue per conversion]**&#x200B;では、コンバージョンあたりの平均売上を定義できます。
 
    1. 予算内の各日付範囲について：
       1. **[!UICONTROL Date range]** ドロップダウンメニューから日付範囲を選択します。
@@ -206,7 +207,7 @@ ht-degree: 0%
    >モデルに過去の売上データが含まれていない場合は、予算に指定した日付範囲ごとに、コンバージョンあたりの平均売上を定義する必要があります。
    >
 
-   - デフォルトでは、Mix Modelerは最新の過去の季節データを使用してチャネルコストを自動的に計算します。 **[!UICONTROL Channel costs]**&#x200B;では、カスタムチャネルコストを定義できます。
+   - デフォルトでは、Marketing Campaign Analyticsは最新の過去の季節データを使用してチャネルコストを自動的に計算します。 **[!UICONTROL Channel costs]**&#x200B;では、カスタムチャネルコストを定義できます。
 
    1. モデルの各チャネルに対して、カスタムチャネルコストを定義します。
       1. **[!UICONTROL Channel]** ドロップダウンメニューからチャネルを選択します。

@@ -1,25 +1,25 @@
 ---
-title: Mix Modeler の概要
-description: Mix Modeler の機能の概要を説明します。
-short-description: Mix Modeler の機能の概要を説明します。
+title: Marketing Campaign Analyticsの概要
+description: Marketing Campaign Analyticsの機能の概要をご紹介します。
+short-description: Marketing Campaign Analyticsの機能の概要をご紹介します。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 autotag-review: '2026-05-01T09:14:10.130Z'
-TQID: 'https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4'
+TQID: 'https://experienceleague.adobe.com/p5U62D65U-w6VtaGOsBuJlKWxcz2p-Qgku6zq-ezNQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
-  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-    internal-label: Marketing touch attribution
-  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-    internal-label: Plans
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -40,24 +40,24 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 5%
+source-wordcount: '786'
+ht-degree: 1%
 ---
-# Mix Modeler の概要
+# Marketing Campaign Analyticsの概要
 
-Adobe Senseiを搭載したMix Modelerを利用すれば、マーケターはペイド、アーンド、オウンドのチャネルをまたいでキャンペーンを測定し、プランを包括的に最適化できます。 統合手法は、完全に一貫性のある結果を確保しながら、マーケティングの顧客接点と集計レベルの両方で段階的に測定します。
+Adobe Senseiを搭載したMarketing Campaign Analyticsを利用すれば、マーケターはペイド、アーンド、オウンドのチャネルをまたいでキャンペーンを測定し、プランを包括的に最適化できます。 統合手法は、完全に一貫性のある結果を確保しながら、マーケティングの顧客接点と集計レベルの両方で段階的に測定します。
 
-Mix Modelerは、デジタルマーケティングとオフラインマーケティングのための包括的な（エンドツーエンドの）測定アプリケーションを通じて、あらゆるマーケティング活動がビジネスやキャンペーンの成果に与える増分効果を提供します。
+Marketing Campaign Analyticsは、デジタルマーケティングとオフラインマーケティングのための包括的な（エンドツーエンドの）測定アプリケーションを通じて、あらゆるマーケティング活動がビジネスやキャンペーンの成果に与える増分効果を提供します。
 
-Mix Modelerは、戦略的および戦術的なレベルで、次のような最適化された実用的なインサイトを提供するため、理解を深めることができます。
+Marketing Campaign Analyticsは、戦略的および戦術的なレベルで、次のような最適化された実用的なインサイトを提供するため、理解を深めることができます。
 
 * 予算やパフォーマンスを自動的に調整できるようになり
 * 将来のビジネス目標を達成するために推奨される投資レベル。
 
 
-この機能を実現するために、Mix Modelerには次の機能が組み合わされています。
+この機能を実現するために、Marketing Campaign Analyticsには次の機能が組み合わされています。
 
 * ボトムアップ（イベントレベル）データやトップダウン（集計レベル）データを収集したり，
 * 外部要因と内部要因、および
@@ -70,7 +70,7 @@ AI/マシンラーニングによる双方向の転移学習は、マーケテ�
 
 ## 機能
 
-Mix Modelerには、次の機能があります。
+Marketing Campaign Analyticsには、次の機能があります。
 
 | 機能 | 説明 |
 |---|---|
@@ -83,12 +83,12 @@ Mix Modelerには、次の機能があります。
 
 >[!MORELIKETHIS]
 >
->[Mix Modeler ワークフローについて](workflow.md)
+>[Marketing Campaign Analytics ワークフローについて](workflow.md)
 
 
 ### マーケティングミックスモデリング（MMM）
 
-Mix Modelerのマーケティングミックスモデリングは、プライバシーに配慮したマシンラーニング分析機能です。この分析を活用して、様々なマーケティング戦術やビジネス要因がコンバージョン指標に与える増分効果を測定できます。 異なるタイプのオーディエンスで
+Marketing Campaign Analyticsのマーケティングミックスモデリングは、プライバシーに配慮したマシンラーニング分析機能です。この分析を活用して、様々なマーケティング戦術やビジネス要因がコンバージョン指標に与える増分効果を測定できます。 異なるタイプのオーディエンスで
 
 * マーケティング戦略の効果も把握できます，
 * ビジネス要因が顧客行動に与える影響
@@ -96,7 +96,7 @@ Mix Modelerのマーケティングミックスモデリングは、プライバ
 
 この包括的な分析により、企業は、さまざまな事業部門、地域、チャネル、キャンペーンに戦略的にマーケティング予算を割り当てると同時に、将来のイベントのビジネスへの影響に関する予測的なインサイトを得ることができます。
 
-Mix Modelerのマーケティングミックスモデリング機能は、次のようなユースケースを解決する基盤となります。
+Marketing Campaign Analyticsのマーケティングミックスモデリング機能は、次のようなユースケースを解決する基盤となります。
 
 * エグゼクティブレポート：経営陣は、マーケティングの真の増分効果を、チャネル全体、地域、SKUなどで把握できます。
 * 戦略的プランニング：長期的なマーケティング戦略を策定し、今後の施策に現実的な目標とベンチマークを設定できます
@@ -106,9 +106,9 @@ Mix Modelerのマーケティングミックスモデリング機能は、次の
 
 ### マルチタッチアトリビューション（MTA）
 
-Mix Modelerのマルチタッチアトリビューションは、オプションのマシンラーニング分析であり、コンバージョンイベントにつながるイベントレベルのタッチポイントにクレジットを関連付けることができます。 マーケターは、このアトリビューションを利用して、追跡可能なカスタマージャーニーをまたいで、各マーケティング接点のマーケティング効果を定量化できます。 デジタルマーケティング施策の顧客接点としては、通常、ディスプレイ広告のクリック数、メールの送信数、メールの開封数、有料検索のクリック数などが挙げられます。 マルチタッチアトリビューションでは、印刷広告、看板、TV コマーシャル、ビジネス要因などのオフライン接点のほとんどを測定することはできません。 これらの顧客接点には、カスタマージャーニーに合成できない概要レベルのデータしかありません。
+Marketing Campaign Analyticsのマルチタッチアトリビューションは、オプションのマシンラーニング分析であり、コンバージョンイベントにつながるイベントレベルのタッチポイントにクレジットを関連付けることができます。 マーケターは、このアトリビューションを利用して、追跡可能なカスタマージャーニーをまたいで、各マーケティング接点のマーケティング効果を定量化できます。 デジタルマーケティング施策の顧客接点としては、通常、ディスプレイ広告のクリック数、メールの送信数、メールの開封数、有料検索のクリック数などが挙げられます。 マルチタッチアトリビューションでは、印刷広告、看板、TV コマーシャル、ビジネス要因などのオフライン接点のほとんどを測定することはできません。 これらの顧客接点には、カスタマージャーニーに合成できない概要レベルのデータしかありません。
 
-Mix Modelerのマルチタッチアトリビューションでは、次の2つのカテゴリーのスコアをサポートしています。
+Marketing Campaign Analyticsのマルチタッチアトリビューションでは、次の2つのカテゴリーのスコアをサポートしています。
 
 * 増分スコアと影響スコアを含むアルゴリズムスコア：
   * 影響スコアは、各マーケティング接点のコンバージョンに対する責任を示す分数です。
@@ -116,13 +116,13 @@ Mix Modelerのマルチタッチアトリビューションでは、次の2つ�
 
 * ルールベースのスコア：ファーストタッチ、ラストタッチ、線形、U字型、時間減衰を含む
 
-Mix Modelerのマルチタッチアトリビューション機能は、次のユースケースで使用できます。
+Marketing Campaign Analyticsのマルチタッチアトリビューション機能は、次のユースケースで使用できます。
 
 * キャンペーンの予算配分：マーケティングチャネル全体で予算配分の意思決定に情報を提供します。
 * キャンペーンの最適化：各チャネル内で、どのキャンペーン、クリエイター、キーワードがどのSKUや地域に対してより効果的かを把握します。 それらのインサイトをもとに、各チャネルを把握し、マーケティング部門が戦術を最適化できるようにします。
 * Funnelのイベントレベルのアトリビューション機能を活用して、カスタマージャーニー全体のマーケティングの影響を把握できます。 例えば、有料コンバージョン以降も継続される無料アカウントサインアップなど。
 * パートナー評価：アトリビューション結果に基づいて、代理店とパートナーの効果を評価します。
 
-Mix Modeler内のマルチタッチアトリビューションインサイトにアクセスする方法については、[&#x200B; モデルインサイト – アトリビューション &#x200B;](../models/insights.md#attribution)を参照してください。
+Marketing Campaign Analytics内のマルチタッチアトリビューションインサイトにアクセスする方法については、[&#x200B; モデルインサイト – アトリビューション &#x200B;](../models/insights.md#attribution)を参照してください。
 
 

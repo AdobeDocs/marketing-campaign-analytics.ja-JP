@@ -1,71 +1,95 @@
 ---
-title: Mix Modeler workflow
-description: Mix Modelerの一般的なワークフローを理解する。
+title: Marketing Campaign Analytics workflow
+description: Marketing Campaign Analyticsの一般的なワークフローを理解する。
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-TQID: https://experienceleague.adobe.com/PAKsHAqpIeBVCJGIPS2ZqWw-vVpS9LUpYdJRFKP0ynY
+autotag-review: '2026-05-01T09:15:33.908Z'
+TQID: 'https://experienceleague.adobe.com/aOlJN-eYN6Cl-qohzpJbleuQeJFxx3cdxWknVUbmn5I'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ad7101f7-ae92-401b-a25a-d3060d42989d
+    internal-label: Aggregate datasets
   - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+    internal-label: Event datasets
   - id: ee1bf083-e090-4def-936b-c111d29f42d0
+    internal-label: Ingest data
   - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+    internal-label: Summary datasets
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+    internal-label: Harmonized fields
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: cb40363e-1205-4921-971c-9ee6bdb18329
+    internal-label: Scoring data
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:15:33.908Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 238
+source-wordcount: '248'
 ht-degree: 1%
-
 ---
+# Marketing Campaign Analytics workflow
 
-# Mix Modeler workflow
-
-Mix Modelerのユーザーワークフローの概要については、このビデオを参照してください。
+Marketing Campaign Analyticsのユーザーワークフローの概要については、このビデオを参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3440204/?captions=jpn&learn=on)
 
 
-Mix Modelerの一般的なワークフローは、次のアクティビティで構成されます。
+Marketing Campaign Analyticsの一般的なワークフローは、次のアクティビティで構成されます。
 
 ![代替テキスト &#x200B;](/help/assets/ApplicationWorkflow.svg)
 
 |  | アクティビティ | 説明 |
 |---|---|---|
 | ![データ](/help/assets/icons/Data.svg){width="100"} | [**データの取り込み**](../ingest-data/overview.md) | Experience Platformからイベントデータ（Adobe Analytics、Web SDK、その他のソースなど）、マーケティングチャネルから集約データ（TV、ウォールドガーデン、電子メール、所有および運営アクティビティなど）、顧客からの外部要因データ（サブスクリプションサービスの価格変更など）、内部要因データ（ホリデープランなど）を取り込みます。 |
-| ![DataCheck](/help/assets/icons/DataCheck.svg){width="100"} | [**データの調和**](../harmonize-data/overview.md) | マッピングルールと競合解決ルールを設定して、Adobe Mix Modelerでキャンペーンのパフォーマンスを測定および計画するために必要なさまざまなマーケティングデータセットを統合できます。 |
+| ![DataCheck](/help/assets/icons/DataCheck.svg){width="100"} | [**データの調和**](../harmonize-data/overview.md) | マッピングルールと競合解決ルールを設定して、Adobe Marketing Campaign Analyticsでキャンペーンのパフォーマンスを測定および計画するために必要なさまざまなマーケティングデータセットを統合できます。 |
 | ![FileConfig](/help/assets/icons/FileGear.svg){width="100"} | [**モデルを作成**](../models/overview.md) | マーケティングのタッチポイント（チャネルなど）、コンバージョンの定義、社内外の要因を使用してモデルインスタンスを構築します。 |
 | ![FileData](/help/assets/icons/FileData.svg){width="100"} | [**モデルのトレーニングとスコアリング**](../models/overview.md) | マシンラーニングとスコアリングを利用して、集計レベルおよびイベントレベルのスコアを作成できます。 |
-| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**プランの作成**](../plans/overview.md) | 計画の策定： Mix Modelerのモデルから得られるアウトプットを活用して、ビジネス目標を達成するために必要なマーケティング資金の配分を決定します。 |
-| ![&#x200B; ダッシュボード &#x200B;](/help/assets/icons/Dashboard.svg){width="100"} | [**概要ダッシュボード**](../dashboard/overview.md) | 設定可能なさまざまなビジュアライゼーションを使用して、調和されたデータ、モデル、計画に関するインサイトを得ることができます。 |
+| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**プランの作成**](../plans/overview.md) | 計画の策定： Marketing Campaign Analyticsのモデルから得られるアウトプットを活用して、ビジネス目標を達成するために必要なマーケティング資金の配分を決定します。 |
+| ![ダッシュボード](/help/assets/icons/Dashboard.svg){width="100"} | [**概要ダッシュボード**](../dashboard/overview.md) | 設定可能なさまざまなビジュアライゼーションを使用して、調和されたデータ、モデル、計画に関するインサイトを得ることができます。 |
 
 {style="table-layout:auto"}
 
-入力データをMix Modelerに流し込む方法と、Mix Modelerが独自のインターフェイス用だけでなく、Customer Journey Analyticsなどの他のソリューション用に出力データを生成する方法の概要を以下に示します。
+入力データをMarketing Campaign Analyticsに流し込む方法と、Marketing Campaign Analyticsが独自のインターフェイス用だけでなく、Customer Journey Analyticsなどの他のソリューション用に出力データを生成する方法の概要を以下に示します。
 
-![Mix Modeler入力出力データフロー](../assets/mm-input-output.png)
+![Marketing Campaign Analytics入力出力データフロー](../assets/mm-input-output.png)
 
 <!--
 The detailed data-oriented flowchart below illustrates how:

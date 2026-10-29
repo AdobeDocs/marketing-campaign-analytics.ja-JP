@@ -1,16 +1,27 @@
 ---
-title: 最新のMix Modeler リリースノートを見る
-description: Mix Modeler の最新のリリースノート
+title: 最新のMarketing Campaign Analytics リリースノートを見る
+description: 最新のMarketing Campaign Analytics リリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-TQID: https://experienceleague.adobe.com/8o2hpkneIUMbBNEZfw9TsQLaGuPOxqF-XA2TV9cJnqc
+autotag-review: '2026-05-01T09:06:55.437Z'
+TQID: 'https://experienceleague.adobe.com/fZpl0bWBtDzOWllXsyGPErO637PaIdJ-2E-l-89JpDk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
     internal-label: Release notes
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,17 +34,25 @@ topic_v2:
     internal-label: Experimentation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 6%
+source-wordcount: '583'
+ht-degree: 5%
 ---
-# 最新のMix Modeler リリースノート
+# 最新のMarketing Campaign Analytics リリースノート
 
-**最終更新**: 2026年8月19日（PT）。
+{{mm-mca-rebranding}}
 
-このリリースノートでは、Mix Modelerの最新リリースについて説明します。 Mix Modeler リリースは継続的な配信モデルで動作します。これにより、ほぼ毎月のリリース頻度を把握できます。 そのため、これらのリリースノートは更新されるので、定期的に確認してください。
+**最終更新**: 2026年10月29日（PT）。
+
+このリリースノートでは、Marketing Campaign Analyticsの最新リリースについて説明します。 Marketing Campaign Analytics リリースは継続的な配信モデルで動作します。これにより、ほぼ毎月のリリース頻度を把握できます。 そのため、これらのリリースノートは更新されるので、定期的に確認してください。
+
+## 2026年10月
+
+| 機能 | 説明 | [&#x200B; ロールアウト開始](#release-strategy) | [一般提供](#release-strategy) |
+|---|---|---|---|
+| **フル funnel モデリング** | モデルを作成する際に[&#x200B; フル funnel モデリング &#x200B;](/help/models/overview.md#full-funnel-modeling)を有効にして、マーケティングがfunnelを通じて顧客をどのように移動させるかを示すことができます。 [funnel フローのビジュアライゼーション &#x200B;](/help/models/insights.md#funnel-flow)をモデルインサイトで利用して、funnel全体に関するインサイトを得ることができます。 | 2026年10月29日（PT） | 2026年10月29日（PT） |
+
 
 ## 2026年8月
 
@@ -69,7 +88,7 @@ ht-degree: 6%
 
 ## リリース戦略
 
-[!UICONTROL Mix Modeler]では、機能フラグ（「トグル」とも呼ばれます）を使用して新しい機能の表示を制御し、フルリリース前に制御されたスケール テストを可能にします。 このリリース戦略には、次のフェーズが含まれます。
+[!UICONTROL Marketing Campaign Analytics]では、機能フラグ（「トグル」とも呼ばれます）を使用して新しい機能の表示を制御し、フルリリース前に制御されたスケール テストを可能にします。 このリリース戦略には、次のフェーズが含まれます。
 
 * **制限付きテスト**：段階的なリリースは、内部Adobe ユーザーによるテストから始まります。 そして、その機能が顧客のニーズと期待を満たしていることを確認するために、少数の顧客アカウントが利用できるようにします。
 

@@ -1,16 +1,20 @@
 ---
 title: モデルインサイト
-description: Mix Modelerで、過去の概要、モデルインサイト、モデル品質など、モデルに関する詳細を取得する方法を説明します。
+description: Marketing Campaign Analyticsで、過去の概要、モデルインサイト、モデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
+TQID: 'https://experienceleague.adobe.com/zoUwqJXQ0z2ttUwvF1cn5ukSvn8-Cxhpv5lXlWENkQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -20,16 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4c3c5548ced77cf84daf5cd8eb6708bfbc3dbb48
+source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '3099'
 ht-degree: 11%
 ---
 # モデルインサイト
+
+{{mm-mca-rebranding}}
 
 モデルインサイトの各ビジュアライゼーションは、次のことを実行できるように設計されています。
 
@@ -39,12 +47,11 @@ ht-degree: 11%
 
 これらのインサイトは、リソースの優先順位付けと割り当てをサポートするのに役立ちます。
 
-モデルのインサイトを表示するには、[!DNL Mix Modeler]の![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで次の操作を行います。
+モデルのインサイトを表示するには、[!DNL Marketing Campaign Analytics]の![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで次の操作を行います。
 
 1. **[!UICONTROL Models]** テーブルから、**[!UICONTROL Last run status]**&#x200B;の![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**&#x200B;を持つモデルの名前を選択します。
 
 1. コンテキストメニューから、**[!UICONTROL Model Insights]**&#x200B;を選択します。
-
 
 
 次のタブを使用できます。
@@ -55,6 +62,8 @@ ht-degree: 11%
 * [&#x200B; アトリビューション &#x200B;](#attribution) （MTA対応モデルのみ）
 * [診断](#diagnostics)
 * [履歴の概要](#historical-overview)。
+
+モデルに対して[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)が有効になっている場合は、モデルインサイトを表示する&#x200B;**[!UICONTROL Funnel stage]** ドロップダウンメニューからfunnel ステージ （**[!UICONTROL Upper funnel]**、**[!UICONTROL Lower funnel]**、**[!UICONTROL Full funnel]**）を選択します。
 
 各タブのビジュアライゼーションの基となる日付の期間を変更できます。 日付期間を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して日付期間を選択します。
 
@@ -126,6 +135,25 @@ ht-degree: 11%
 
 * **[!UICONTROL Channel]** ドロップダウンメニューからチャネルを選択して、特定のチャネルのビジュアライゼーションを更新します。
 
+## Funnel フロー
+
+{{release-limited-testing-section}}
+
+モデルに対して[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)が有効になっていて、「Funnel ステージ」ドロップダウンメニューから「フル funnel」を選択した場合、Funnel フロービジュアライゼーションが使用できます。
+
+>[!BEGINTABS]
+
+>[!TAB Funnel フロー]
+
+![Funnel フロー](/help/assets/model-funnel-flow.png)
+
+>[!TAB funnel フローにカーソルを合わせる]
+
+![すべてのシナジーを計画](/help/assets/model-funnel-flow-hover.png)
+
+>[!ENDTABS]
+
+任意のフローにカーソルを合わせると、funnelの特定のフローの詳細が表示されるポップアップが表示されます。
 
 ### 顧客接点の内訳
 
@@ -163,16 +191,21 @@ ht-degree: 11%
 
 この1 ドル規模の枠組みは、トレーニングデータにおける実際の支出状況を考慮し、より多くの情報に基づいた最適化決定を可能にするため、相対的な相乗効果の強さを現実的に示しています。
 
+モデルに対して[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)が有効になっている場合、funnel チャネルの上部のシナジーとfunnel チャネルの下部のシナジーのビジュアライゼーションが表示されます。
 
 >[!BEGINTABS]
 
->[!TAB  シナジー効果を減らす]
+>[!TAB  チャネルシナジーを減らす]
 
-![&#x200B; チャネルシナジーの計画](/help/assets/model-channel-synergies-less.png)
+![&#x200B; チャネルレスシナジーを計画](/help/assets/model-channel-synergies-less.png)
 
->[!TAB すべてのシナジーを表示]
+>[!TAB すべてのチャネルシナジーを表示]
 
-![&#x200B; チャネルシナジーの計画](/help/assets/model-channel-synergies-all.png)
+![すべてのシナジーを計画](/help/assets/model-channel-synergies-all.png)
+
+>[!TAB Funnelの相乗効果]
+
+![&#x200B; チャネル funnelのシナジーを計画](/help/assets/model-channel-synergies-funnel.png)
 
 >[!ENDTABS]
 
@@ -210,6 +243,7 @@ ht-degree: 11%
 
 >[!ENDTABS]
 
+* モデルで[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)が有効になっている場合は、「Funnel ステージ」ドロップダウンメニューから「上funnel」または「下funnel」を選択します。
 * **[!UICONTROL All channels]**&#x200B;のadstock ビジュアライゼーションまたは個々のチャネル（例：**[!UICONTROL Paid Social Facebook]**）のadstock ビジュアライゼーションを表示するには、**[!UICONTROL Channel]** ドロップダウンメニューから選択します。
 
 
@@ -258,7 +292,7 @@ ht-degree: 11%
 
 次のアトリビューションモデルがサポートされています。
 
-* [!DNL Mix Modeler]で選択したモデルに基づく：
+* [!DNL Marketing Campaign Analytics]で選択したモデルに基づく：
   * アルゴリズム – 影響
   * アルゴリズム – 増分
 * ルールベース：
@@ -268,13 +302,13 @@ ht-degree: 11%
   * 線形
   * Ushape
 
-[!DNL Mix Modeler]のマルチタッチアトリビューション機能の概要については、[&#x200B; マルチタッチアトリビューション &#x200B;](../get-started/about.md#multi-touch-attribution)を参照してください。
+[!DNL Marketing Campaign Analytics]のマルチタッチアトリビューション機能の概要については、[&#x200B; マルチタッチアトリビューション &#x200B;](../get-started/about.md#multi-touch-attribution)を参照してください。
 
 **[!UICONTROL Attribution Model]** ドロップダウンメニューから1つ以上のアトリビューションモデルを選択します。 選択したアトリビューションモデルは、「アトリビューション」タブのすべてのビジュアライゼーションに適用されます。
 
 ![アトリビューション](/help/assets/model-insights-attribution.png)
 
-Mix Modelerのマルチタッチアトリビューションの詳細なイベントスコアは、全体的な[!DNL Mix Modeler] スコアとROIに一致します。 これらのスコアは、Experience Platformのデータセットとしても利用できます。
+Marketing Campaign Analyticsのマルチタッチアトリビューションの詳細なイベントスコアは、全体的な[!DNL Marketing Campaign Analytics] スコアとROIに一致します。 これらのスコアは、Experience Platformのデータセットとしても利用できます。
 
 「アトリビューション」タブは、次のビジュアライゼーションで構成されます。
 
@@ -420,8 +454,8 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
   * **[!UICONTROL Training R<sup>2</sup>]**: モデルの予測によって説明される実際の値の分散の割合を示します（0 ～ 1の範囲）。
   * **[!UICONTROL Training sMAPE]** （対称平均絶対割合エラー）：学習データの平均割合エラーを測定します。 値が小さいほど、精度が向上します。
   * **[!UICONTROL Training RMSE]** （ルート平均二乗エラー）：学習データの平均パーセンテージ エラーを測定します。 MAPEよりも大きなエラーにペナルティを与えます。 RMSEが低い場合は、予測精度は高くなりますが、異常値の影響を受けやすくなります。
-  * **[!UICONTROL Out-of-sample sMAPE]**：見えないデータに対するパーセンテージ エラーを評価し、過剰と過小予測のバランスをとります。 一般化を評価するのに役立ちます。 現在、Mix Modelerでは、トレーニングデータの最後の四半期をホールドアウトセットとして使用してパーセンテーションエラーを評価しています。
-  * **[!UICONTROL Out-of-sample RMSE]**：見えないデータに対するパーセンテージ エラーを評価し、過剰と過小予測のバランスをとります。 一般化の評価に役立ちます。 現在、[!DNL Mix Modeler]は、トレーニング データの最後の四半期をホールドアウト セットとして使用してパーセンテージ エラーを評価しています。 RMSEは、MAPEよりも大きなエラーにペナルティを課します。
+  * **[!UICONTROL Out-of-sample sMAPE]**：見えないデータに対するパーセンテージ エラーを評価し、過剰と過小予測のバランスをとります。 一般化を評価するのに役立ちます。 現在、Marketing Campaign Analyticsでは、トレーニングデータの最後の四半期をホールドアウトセットとして使用してパーセンテーションエラーを評価しています。
+  * **[!UICONTROL Out-of-sample RMSE]**：見えないデータに対するパーセンテージ エラーを評価し、過剰と過小予測のバランスをとります。 一般化の評価に役立ちます。 現在、[!DNL Marketing Campaign Analytics]は、トレーニング データの最後の四半期をホールドアウト セットとして使用してパーセンテージ エラーを評価しています。 RMSEは、MAPEよりも大きなエラーにペナルティを課します。
 
 
 * **[!UICONTROL Touchpoint effectiveness]** テーブル。アトリビューション AI アルゴリズムモデルの結果を表します。
@@ -441,7 +475,7 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
 
 >[!AVAILABILITY]
 >
->このセクションで説明する機能は、リリースの限定テスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般に利用可能な場合に削除されます。 [!DNL Mix Modeler]のリリースプロセスについて詳しくは、[Mix Modeler機能リリース &#x200B;](/help/releases/latest.md)を参照してください。
+>このセクションで説明する機能は、リリースの限定テスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般に利用可能な場合に削除されます。 [!DNL Marketing Campaign Analytics]のリリースプロセスについて詳しくは、[Marketing Campaign Analytics機能リリース &#x200B;](/help/releases/latest.md)を参照してください。
 >
 
 モデルドリフトが検出された場合は、上部に&#x200B;**[!UICONTROL Model drift detected]**&#x200B;通知が表示されます。

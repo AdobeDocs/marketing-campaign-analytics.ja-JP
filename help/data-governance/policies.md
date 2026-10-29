@@ -1,14 +1,16 @@
 ---
 title: ポリシー
-description: Mix Modelerからポリシーにアクセスする方法を説明します。
+description: Marketing Campaign Analyticsからポリシーにアクセスする方法を説明します。
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 autotag-review: '2026-05-01T09:17:02.907Z'
-TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
+TQID: 'https://experienceleague.adobe.com/uTMFYn3vc4-6JJefPhgFXGwaajrWQbgr9lW0y2s5B8U'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -30,16 +32,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 9%
 ---
 # ポリシー
 
+{{mm-mca-rebranding}}
+
 ワークフローを実行してモデルを作成し、モデルの設定を送信すると、[&#x200B; ポリシーの適用](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)が違反がないか確認します。 ポリシー違反が発生した場合は、1 つ以上のポリシーに違反したことを示すポップオーバーが表示されます。 このチェックは、Experience Platform内のデータ運用とマーケティングアクションがデータ使用ポリシーに準拠していることを確認するためのものです。
 
-デフォルトでは、Mix Modelerは、次のラベルとマーケティングアクションに関連付けられたAdobe定義ポリシーの違反をチェックします。
+デフォルトでは、Marketing Campaign Analyticsは、次のラベルとマーケティングアクションに関連付けられたAdobe定義ポリシーの違反をチェックします。
 
 | ポリシー名 | 関連ラベル | 関連するマーケティングアクション |
 |---|---|---|
@@ -81,7 +85,7 @@ ht-degree: 9%
 左側のパネルの![&#x200B; プライバシー](/help/assets/icons/Privacy.svg) **[!UICONTROL Policies]**&#x200B;の選択範囲では、Experience Platformの[!UICONTROL Policies] インターフェイスにアクセスし、ポリシー、ラベル、マーケティングアクションを管理できます。
 
 <!--
-Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
+Currently,  Marketing Campaign Analytics does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
 -->
 
 >[!MORELIKETHIS]

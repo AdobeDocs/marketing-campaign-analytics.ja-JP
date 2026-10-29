@@ -1,34 +1,51 @@
 ---
 title: データセットルール
-description: Mix Modelerでデータを調和させる一環として使用するデータセットルールを定義する方法について説明します。
+description: Marketing Campaign Analyticsでデータを調和させる一環として使用するデータセットルールを定義する方法について説明します。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 2161
+source-wordcount: '2169'
 ht-degree: 4%
-
 ---
-
 # データセットルール
 
-データセットルールは、Mix Modelerで取り込んだデータのフィールドと調和フィールドのマッピングに役立ちます。
+{{mm-mca-rebranding}}
+
+データセットルールは、Marketing Campaign Analyticsで取り込んだデータのフィールドと調和フィールドのマッピングに役立ちます。
 
 * Adobe Experience Platformに取り込んだ集計データの場合、使用可能なデータセットフィールドの1つ以上を、適切な調和フィールドにマッピングします。
 * イベントデータの場合、1つ以上の調和されたフィールドをデータセットのフィールドに個別にマッピングしたり、直接条件を使用したりできます。
@@ -37,7 +54,7 @@ ht-degree: 4%
 
 ## データセットルールの管理
 
-使用可能なデータセットルールのテーブルを表示するには、Mix Modeler インターフェイスで次の操作を行います。
+使用可能なデータセットルールのテーブルを表示するには、Marketing Campaign Analytics インターフェイスで次の操作を行います。
 
 1. 左側のパネルから「![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**」を選択します。
 
@@ -69,7 +86,7 @@ ht-degree: 4%
 
 ### データセットルールの作成
 
-データセットルールを作成するには、Mix Modelerの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスで、**[!UICONTROL Dataset rules configuration]** ウィザードの&#x200B;**[!UICONTROL Create a dataset rule]**&#x200B;を選択します。
+データセットルールを作成するには、Marketing Campaign Analyticsの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスで、**[!UICONTROL Dataset rules configuration]** ウィザードの&#x200B;**[!UICONTROL Create a dataset rule]**&#x200B;を選択します。
 
 **[!UICONTROL Create]**&#x200B;画面では，
 
@@ -83,7 +100,7 @@ ht-degree: 4%
 
    メディア企業との取引は、多額の費用を要することが多く、レポートデータを変更すると、インサイトや投資計画が大きく異なることがあるため、メディア企業からのレポートデータはマーケティングアナリストにとって非常に重要です。 さらに、マーケティングアナリストは、関係者の信頼を得るために、適切なインサイトを導き出し、説得力のある提案を提示するための正確なデータを必要としています。 しかし、GoogleやFacebookなどのメディアは、データを紐付ける際に、レポートデータを再利用したり削除したりすることがよくあります。 ほとんどの変更の期間は、報告されたメディアパフォーマンスから7日以内です。 データの変更は30日以内に可能です。 一般的に、30日後、本は閉じられ、データは完全と見なされます。
 
-   Mix Modelerは、データの再表示をサポートしています。 レポート、モデリング、計画に使用するデータが正確であることを確認する必要があります。 データがマーケティングアナリストの期待とニーズをサポートすること。
+   Marketing Campaign Analyticsは、データの再表示をサポートしています。 レポート、モデリング、計画に使用するデータが正確であることを確認する必要があります。 データがマーケティングアナリストの期待とニーズをサポートすること。
 
    Experience Platform データセット内の増分行として再表示された概要データを送信できます。また、調和サービスは、その再表示されたデータで調和されたデータセットを更新します。 同様に、調和サービスに反映する必要がある概要データの行を削除することもできます。
 
@@ -135,7 +152,7 @@ ht-degree: 4%
 
 #### 概要データセット
 
-サマリーデータセットから標準調和フィールドをマッピングすると、Mix Modelerは対応するExperience Platform データセットのフィールドを推測しようとします。 成功したとき：
+サマリーデータセットから標準調和フィールドをマッピングすると、Marketing Campaign Analyticsは対応するExperience Platform データセットのフィールドを推測しようとします。 成功したとき：
 
 * フィールドがディメンション タイプの場合、**[!UICONTROL Map into]**&#x200B;は&#x200B;**[!UICONTROL Mapping type]**&#x200B;として選択されます。
 * フィールドがタイプ指標の場合、**[!UICONTROL Sum]**&#x200B;は&#x200B;**[!UICONTROL Mapping type]**&#x200B;として選択されます。
@@ -212,7 +229,7 @@ ht-degree: 4%
 
 ### データセットルールの編集
 
-データセットルールを編集するには、Mix Modelerの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスで次の操作を行います。
+データセットルールを編集するには、Marketing Campaign Analyticsの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスで次の操作を行います。
 
 1. 編集するデータセットルールの&#x200B;**[!UICONTROL Dataset]**&#x200B;列の![詳細](/help/assets/icons/More.svg)を選択します。
 1. コンテキストメニューから、![編集](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;を選択して、データセットルールの編集を開始します。 詳しくは、[&#x200B; データセットルールの作成](#create-a-dataset-rule)を参照してください。
@@ -220,7 +237,7 @@ ht-degree: 4%
 
 ### データセットルールの削除
 
-データセットルールを削除するには、Mix Modelerの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスで次の操作を行います。
+データセットルールを削除するには、Marketing Campaign Analyticsの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスで次の操作を行います。
 
 1. 削除するデータセットルールの&#x200B;**[!UICONTROL Dataset]**&#x200B;列の![詳細](/help/assets/icons/More.svg)を選択します。
 1. コンテキストメニューから、![削除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;を選択して、データセットルールを削除します。 確認を求められます。 選択したデータセットルールを完全に削除するには、**[!UICONTROL Delete]**&#x200B;を選択します。

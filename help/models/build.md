@@ -1,6 +1,6 @@
 ---
-title: Mix Modelerでのモデルの構築
-description: モデルの高度なオプションを設定、設定、指定する方法など、Mix Modelerでモデルを構築する方法を説明します。 Adobe Workfrontの導入をサポートします。
+title: Marketing Campaign Analyticsでのモデルの構築
+description: モデルの高度なオプションを設定、設定、指定する方法など、Marketing Campaign Analyticsでモデルを構築する方法を説明します。 Adobe Workfrontの導入をサポートします。
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
@@ -32,22 +32,24 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d83e095cdcd2954b5c6cc5f4b3f32a26cf27ed9a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 9%
+source-wordcount: '1903'
+ht-degree: 7%
 ---
 # モデルを構築
 
+{{mm-mca-rebranding}}
+
 AIを活用したカスタムモデルを構築するために、インターフェイスにはステップバイステップのガイド付きモデル設定フローが用意されています。
 
-[!DNL Mix Modeler]の![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、**[!UICONTROL Open model canvas]**&#x200B;を選択します。
+[!DNL Marketing Campaign Analytics]の![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、**[!UICONTROL Open model canvas]**&#x200B;を選択します。
 
 ## セットアップ
 
 **[!UICONTROL Setup]** ステップで名前と説明を定義します。
 
-1. モデル **[!UICONTROL Name]**&#x200B;を入力します（例：`Demo model`）。 **[!UICONTROL Description]**&#x200B;を入力します（例：`Demo model to explore AI features of Mix Modeler`）。
+1. モデル **[!UICONTROL Name]**&#x200B;を入力します（例：`Demo model`）。 **[!UICONTROL Description]**&#x200B;を入力します（例：`Demo model to explore AI features of Marketing Campaign Analytics`）。
 
    ![&#x200B; モデル名と説明](/help/assets/model-name-description.png)
 
@@ -61,7 +63,12 @@ AIを活用したカスタムモデルを構築するために、インターフ
 >abstract="マーケティングタッチポイントは、数値または売上高ベースのコンバージョンに対するマーケティング投資の影響を評価するために使用される、受信者、個人または cookie レベルのマーケティングイベントです。<br/><br/>データが重複するタッチポイントを使用してモデルを設定できません。また、支出に関するタッチポイントが 1 つ以上必要です。"
 
 
-モデルは&#x200B;**[!UICONTROL Configure]** ステップで設定します。 コンバージョンの目標、マーケティング接点、適格なデータ母集団、外部要因および内部要因などの定義を設定できます。
+モデルは&#x200B;**[!UICONTROL Configure]** ステップで設定します。 コンバージョンの設定では、Adobe funnelの包括的なモデリング、コンバージョン目標の定義、マーケティング接点、適格なデータ母集団、社内外の要因などを活用します。
+
+1. [&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)を有効にする場合は、**[!UICONTROL Full funnel model]** セクションで次の操作を行います。
+
+   1. **[!UICONTROL Enable full funnel modeling]** を選択します。
+   1. **[!UICONTROL Upper funnel conversion]** ドロップダウンメニューから上位のコンバージョンを選択します。
 
 1. **[!UICONTROL Conversion goal]** セクション：
 
@@ -115,21 +122,41 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
    * コンテナ間で&#x200B;**And**&#x200B;と&#x200B;**Or**&#x200B;を選択して、対象となるデータ母集団に対するより複雑な定義を構築します。
 
-1. 内部要因または外部要因を含むデータセットは、**[!UICONTROL Factor dataset]** セクションで管理できます。
-
-   ![&#x200B; モデル – 因子データセット ステップ &#x200B;](../assets/model-factors-dataset-step.png)
+1. 内部要因または外部要因を含むデータセットは、**[!UICONTROL Factor]** セクションで管理できます。
 
    * 因子データセットを追加するには、**[!UICONTROL Add Factor]**&#x200B;を選択します。 モデルには最大30個の要素を追加できます。
 
+     ![&#x200B; モデル – 因子ステップ &#x200B;](../assets/model-factors-dataset-step.png)
+
      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Factor dataset]**&#x200B;を選択します。 使用可能な要因は、[&#x200B; データセット ルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)で調和フィールドを定義した要因です。
+
         選択したデータセットに基づいて、**[!UICONTROL Factor type]**&#x200B;は&#x200B;**[!UICONTROL Internal]**&#x200B;または&#x200B;**[!UICONTROL External]**&#x200B;です。
 
      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;を選択します。 利用できるオプションは&#x200B;**[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;または&#x200B;**[!UICONTROL Negative]**&#x200B;です。 デフォルトのオプションは&#x200B;**[!UICONTROL Auto]**&#x200B;です。これにより、モデルは因子データセットの影響を判断できます。
 
    * 因子データセットを削除するには、![CrossSize200](/help/assets/icons/CrossSize400.svg)を選択します。
 
+   * モデルが[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)に対して有効になっている場合は、モデルに追加する要因の因果関係と因果関係を定義する必要があります。
+
+     ![&#x200B; モデル – 因子ステップ funnel](../assets/model-factors-dataset-step-funnel.png)
+
+     * 因果関係を定義するには、**[!UICONTROL Causal relationship]** s テーブルで、チャネル （**[!UICONTROL Source]**）ごとに![SelectBox](/help/assets/icons/SelectBox.svg)を選択します。チャネルによって、上位コンバージョン KPI （**[!UICONTROL Full funnel modeling]** セクションで&#x200B;**[!UICONTROL Upper funnel conversion]**&#x200B;として選択）と下位コンバージョン KPI （**[!UICONTROL Conversion goal]** セクションで&#x200B;**[!UICONTROL Conversion]**&#x200B;として選択）が影響を受けるかどうかを選択します。
+
+       上位コンバージョン KPIと下位コンバージョン KPIの列ヘッダーを![SelectBox](/help/assets/icons/SelectBox.svg)選択して、すべてのチャネルがKPIに影響を与えることをすばやく定義できます。
+
+     * 因子を定義したら、因子の因果関係を定義します。 ギャップの因果関係を定義するには、**[!UICONTROL Factor causal relationships]** テーブルで、各係数（**[!UICONTROL Factor]**）に対して![SelectBox](/help/assets/icons/SelectBox.svg)を選択し、**[!UICONTROL Full funnel modeling]** セクションで&#x200B;**[!UICONTROL Upper funnel conversion]**&#x200B;として選択した上位コンバージョン KPIと&#x200B;**[!UICONTROL Conversion goal]** セクションで&#x200B;**[!UICONTROL Conversion]**&#x200B;として選択した下位コンバージョン KPIが係数の影響を受けるかどうかを指定します。
+
+       上位コンバージョン KPIと下位コンバージョン KPIの列ヘッダーを![SelectBox](/help/assets/icons/SelectBox.svg)選択して、すべての要因がKPIに影響を与えることをすばやく定義できます。
+
 
 1. モデルのルックバックウィンドウを定義するには、**[!UICONTROL Define lookback window]** セクションの&#x200B;**[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**&#x200B;に`1`から`52`までの値を入力します。
+
+   モデルが[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)に対して有効になっている場合：
+
+   * 下位のfunnelのルックバックウィンドウを定義するには、**[!UICONTROL Define lookback window]** セクションの&#x200B;**[!UICONTROL Lower funnel]**&#x200B;に`1` ～ `52`の値を入力します。**[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**
+
+   * 上funnelのルックバックウィンドウを定義するには、**[!UICONTROL Define lookback window]** セクションの&#x200B;**[!UICONTROL Upper funnel]**&#x200B;に`1` ～ `52`の値を入力します。**[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the upper funnel conversion]**
+
 
 1. モデルのトレーニングウィンドウを定義するには、**[!UICONTROL Define training window]**&#x200B;で、コンバージョンのスコアリングを開始する場所を選択します。
 
@@ -137,7 +164,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
    次のいずれかを選択できます。
 
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]**&#x200B;および
+   * **[!UICONTROL Have Marketing Campaign Analytics select a helpful training window]**&#x200B;および
 
    * **[!UICONTROL Manually input a training window]**. 選択すると、**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;の年数を定義します。
 
@@ -159,7 +186,14 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 **[!UICONTROL Spend share]** セクション：
 
-* 過去のマーケティング投資比率を使用して、マーケティングデータがスパースな場合にモデルに通知するには、**[!UICONTROL Allow spend share]**&#x200B;をアクティブにします。 この設定は、特に次のシナリオで推奨されます。
+* 過去のマーケティング投資比率を使用して、マーケティングデータがスパースな場合にモデルに通知するには、**[!UICONTROL Allow spend share]**&#x200B;をアクティブにします。
+
+  モデルが[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)に対して有効になっている場合：
+
+  * 過去のマーケティング投資比率を使用して、マーケティングデータがスパースな場合にモデルに通知するには、**[!UICONTROL Allow spend share for the lower funnel]**&#x200B;をアクティブにします。
+  * 過去のマーケティング投資比率を使用して、マーケティングデータがスパースな場合にモデルに通知するには、**[!UICONTROL Allow spend share for the upper funnel]**&#x200B;をアクティブにします。
+
+* この設定は、特に次のシナリオで推奨されます。
   * チャネルには十分な観測値がありません（たとえば、購入頻度が低い、インプレッション数やクリック数など）。
   * 例えば、データが希薄なメディア（一部のブランドではTVなど）を日常的に使用し、急上昇を遂げているメディアを制作します。
 
@@ -167,6 +201,8 @@ AIを活用したカスタムモデルを構築するために、インターフ
   >
   >1回限りの投資（スーパーボウル広告など）の場合、そのデータを支出シェアに頼るのではなく、要因として組み込みます。
   >
+
+
 
 ### MTA
 
@@ -182,6 +218,10 @@ AIを活用したカスタムモデルを構築するために、インターフ
 ![&#x200B; モデル – 事前知識](/help/assets/model-prior-knowledge-step.png)
 
 1. **[!UICONTROL Rule type]**&#x200B;を選択します。デフォルトは&#x200B;**[!UICONTROL Absolute values]**&#x200B;です。
+
+1. モデルが[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)に対して有効になっている場合：
+
+   * **[!UICONTROL Select metric]**&#x200B;の&#x200B;**[!UICONTROL Lower funnel]**&#x200B;または&#x200B;**[!UICONTROL Upper funnel]**&#x200B;をfunnel指標として選択し、事前知識に使用します。
 
 1. **[!UICONTROL Contribution proportion]**&#x200B;列を使用して、**[!UICONTROL Name]**&#x200B;にリストされているチャネルの貢献率を指定します。
 
@@ -201,6 +241,8 @@ AIを活用したカスタムモデルを構築するために、インターフ
 ![&#x200B; チャネル adstock](/help/assets/channel-ad-stock.png)
 
 チャネル adstockを設定するには：
+
+* モデルが[&#x200B; フル funnel モデリング &#x200B;](./overview.md#full-funnel-modeling)に対して有効になっている場合は、**[!UICONTROL Select metric]**&#x200B;から&#x200B;**[!UICONTROL Lower funnel]**&#x200B;または&#x200B;**[!UICONTROL Upper funnel]**&#x200B;を選択し、channel adstockに使用するfunnel指標として使用します。
 
 * 各チャネル （**[!UICONTROL Name]**）に対して、**[!UICONTROL Lag (weeks)]**、**[!UICONTROL Min Lookback (weeks)]**、**[!UICONTROL Max Lookback (weeks)]**&#x200B;の値を定義します。 各値について：
 
@@ -231,7 +273,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
    * **[!UICONTROL Daily]**：有効な時間（例：`05:22 pm`）を入力するか、![時計](/help/assets/icons/Clock.svg)を使用して時間を定義します。
    * **[!UICONTROL Weekly]**：曜日を選択し、有効な時間（例：`05:22 pm`）を入力するか、![時計](/help/assets/icons/Clock.svg)を使用して時間を定義します。
-   * **[!UICONTROL Monthly]**：毎回の実行メニューから月の日を選択し、有効な時間（例：`05:22 pm`）を入力するか、![時計](/help/assets/icons/Clock.svg)を使用して時間を定義します。
+   * **[!UICONTROL Monthly]**：毎回の実行メニューから月の曜日を選択し、有効な時間（例：`05:22 pm`）を入力するか、![時計](/help/assets/icons/Clock.svg)を使用して時間を定義します。
 
 1. ドロップダウンメニューから&#x200B;**[!UICONTROL Training frequency]**&#x200B;を選択します：**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、または&#x200B;**[!UICONTROL None]**。
 

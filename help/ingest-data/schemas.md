@@ -1,29 +1,37 @@
 ---
 title: スキーマ
-description: Mix Modelerにデータを取り込むために必要なスキーマを管理する方法について説明します。
+description: Marketing Campaign Analyticsにデータを取り込むために必要なスキーマを管理する方法について説明します。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+autotag-review: '2026-05-01T08:56:54.552Z'
+TQID: 'https://experienceleague.adobe.com/GS91VDl1bmpHRPKVZTg6j-94nikFXXFHWLhoMoDWaw4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T08:56:54.552Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '618'
 ht-degree: 7%
-
 ---
-
 # スキーマ
 
-スキーマを管理するには、Experience Platformに取り込み、Mix Modelerで使用するデータをサポートします。
+{{mm-mca-rebranding}}
 
-1. Mix Modelerのインターフェイスに移動します。
+スキーマを管理するには、Experience Platformに取り込み、Marketing Campaign Analyticsで使用するデータをサポートします。
+
+1. Marketing Campaign Analyticsのインターフェイスに移動します。
 
 1. **[!UICONTROL SETUP]**&#x200B;の下にある![&#x200B; スキーマ &#x200B;](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;を選択します。
 
@@ -31,7 +39,7 @@ ht-degree: 7%
 
 ## 集計データまたは概要データ
 
-Experience Platformで取り込み、Mix Modelerで使用する集計データまたは概要データの基礎となるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
+Experience Platformで取り込み、Marketing Campaign Analyticsで使用する集計データまたは概要データの基礎となるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
 
 XDM Summary Metrics クラスを使用して、次の操作を行います。
 
@@ -97,7 +105,7 @@ XDM Summary Metrics クラスを使用して、次の操作を行います。
 
 ## サポートされているデータタイプ
 
-現在、Mix ModelerはExperience Platform データタイプのサブセットをサポートしています。 次の基本的なデータタイプ（フィールド）がサポートされています。これは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#data-type)に記載されています。
+現在、Marketing Campaign AnalyticsはExperience Platform データタイプのサブセットをサポートしています。 次の基本的なデータタイプ（フィールド）がサポートされています。これは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#data-type)に記載されています。
 
 - 文字列
 - 整数
