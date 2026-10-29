@@ -2,9 +2,9 @@
 user-guide-title: Marketing Campaign Analytics ガイド
 breadcrumb-title: Marketing Campaign Analytics ガイド
 user-guide-description: Marketing Campaign Analyticsについて学びましょう。
-source-git-commit: b88d7de7fa8e964c58e1751957e09cc1699b319b
+source-git-commit: d232da07619419cc1ea789d41955a2c735eaa958
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '106'
 ht-degree: 31%
 ---
 # Marketing Campaign Analytics ガイド {#using}
@@ -61,8 +61,10 @@ ht-degree: 31%
   + [2025 リリース](/help/releases/2025.md)
   + [2024 リリース](/help/releases/2024.md)
   + [2023 リリース](/help/releases/2023.md)
-  + {hide-from-toc}[&#x200B; テスト &#x200B;](../releases/test.md)
+  + {hide-from-toc}[ テスト ](../releases/test.md)
 
 + {hide-from-toc}[深掘り](/help/get-started/deep-dive.md)
 
 + [用語集](/help/main-guide/glossary.md)
+
++ [MCP サーバー](https://developer.adobe.com/analytics-mcp/docs/mca/)
