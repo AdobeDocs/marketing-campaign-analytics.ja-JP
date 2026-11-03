@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: c75532d37a87f39cb61eabd58333b39895cf3a69
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1329'
 ht-degree: 0%
 ---
 # モデルの概要
@@ -49,7 +49,7 @@ Marketing Campaign Analyticsのモデル機能を使用すると、ビジネス�
 
 モデルは、アプリケーションワークフローの一部として作成した調整済みデータに基づいています。
 
-Marketing Campaign Analyticsのモデルは、マーケターの投資にもとづいて、特定の結果を測定および予測するために使用されるマシンラーニングモデルです。 マーケティングのタッチポイントや概要レベルのデータを入力として利用できます。 Marketing Campaign Analyticsを活用すれば、様々な変数、ディメンション、結果（収益、販売個数、リードなど）のセットにもとづいてモデルのバリエーションを作成できます。
+Marketing Campaign Analyticsのモデルは、マーケティングへの投資にもとづいて特定の結果を測定および予測するために使用されるマシンラーニングモデルです。 マーケティングのタッチポイントや概要レベルのデータを入力として利用できます。 Marketing Campaign Analyticsを活用すれば、様々な変数、ディメンション、結果（収益、販売個数、リードなど）のセットにもとづいてモデルのバリエーションを作成できます。
 
 モデルには次のものが必要です。
 
@@ -62,10 +62,10 @@ Marketing Campaign Analyticsのモデルは、マーケターの投資にもと�
 
 * 外部要因：
 * 内部要因：
-* 過去のステークホルダーの経験、段階的テスト、その他のモデルなど、他のソースからのマーケティング貢献度に関する事前知識。
+* 過去のステークホルダーの経験、増分テスト、その他のモデルなど、他のソースからのマーケティング貢献度に関する事前知識。
 * 支出分担：マーケティングデータがスパースの場合、相対的な支出分担をプロキシとして使用します
 
-モデルが最初に作成されると、すぐにトレーニングとスコアリングのプロセスが開始されます。 最初のトレーニングとスコアリングの実行が完了すると、モデルインサイトをレビューできます。 モデルは後で再訓練される可能性があります。 また、データがモデルに追加される場合があり、モデルを手動で再分割する必要があります。 リトレーニングとリスコアリングは、新たな知見や情報の獲得につながる反復的なプロセスです。ビジネス目標に最も適したモデルフィットを得るためには、調整が必要です。
+モデルが最初に作成されると、すぐにトレーニングとスコアリングのプロセスが開始されます。 最初のトレーニングとスコアリングの実行が完了すると、モデルインサイトをレビューできます。 モデルはその後に再訓練されます。 また、モデルにデータを追加する場合、モデルの手動リソースコアが必要になります。 リトレーニングとリスコアリングは、新たな知見や情報の獲得につながる反復的なプロセスです。ビジネス目標に最も適したモデルフィットを得るためには、調整が必要です。
 
 ## Funnelのフルモデリング
 
@@ -81,7 +81,7 @@ Marketing Campaign Analyticsのモデルは、マーケターの投資にもと�
 Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、多くの場合、優れた戦術に対する貢献度は低くなります。 Funnelの完全なモデリングを利用すれば、次のことを把握できます。
 
 * Funnelの上位の目標に貢献したメディアとマーケティング戦術。
-* どのメディアとマーケティング戦術がコンバージョン目標に間接的な影響を与えたか。 Funnelモデルの上部の重みづけは、funnelモデルの下部の入力であり、関連するメディアやマーケティング戦術により高い重みづけを与えます。
+* どのメディアとマーケティング戦術がコンバージョン目標に間接的な影響を与えたか。 Funnelモデルの上部の重みは、funnelモデルの下部への入力であり、関連するメディアやマーケティング戦術により高い重みを与えます。
 
 ## モデルを構築
 
@@ -108,7 +108,7 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
 
    昇順![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg)または降順![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg)の任意の列でテーブルを並べ替えるには、列のタイトルを選択します。
 
-   **[!UICONTROL Name]**&#x200B;列を並べ替えたり、サイズを変更したりするには、**[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg)を選択します。 コンテキストメニューから、**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**、または&#x200B;**[!UICONTROL Resize column]**&#x200B;を選択します。 または、列区切り記号にカーソルを合わせて&#x200B;**[!UICONTROL Name]**&#x200B;列のサイズを変更することもできます。
+   **[!UICONTROL Name]**&#x200B;列を並べ替えたり、サイズを変更したりするには、**[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg)を選択します。 コンテキストメニューから、**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**、または&#x200B;**[!UICONTROL Resize column]**&#x200B;を選択します。 **[!UICONTROL Name]**&#x200B;列のサイズを変更するには、列の区切り記号にカーソルを合わせます。
 
    レポートされるモデルのステータスは、モデルがライフサイクル内のどの段階にあるかによって異なります。 例えば、モデルが作成されたか、（再）トレーニングが成功したか否か、または（再）スコアリングが成功したかどうかを示します。
 
@@ -195,6 +195,12 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
         * **[!UICONTROL Monthly]**：毎回の実行メニューから月の曜日を選択し、有効な時間（例：`10:00 am`）を入力するか、![時計](/help/assets/icons/Clock.svg)を使用して時間を定義します。
 
      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Training frequency]**&#x200B;を選択します：**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、または&#x200B;**[!UICONTROL None]**。
+
+   * フル funnel モデルが有効になっている場合は、無効になっているフル funnel アトリビューションが表示されます。 この設定は変更できません。
+
+   * Customer Journey Analytics[&#128279;](build.md#customer-journey-analytics)でスコアデータを利用できるようにするには、**[!UICONTROL Enable scores for Customer Journey Analytics]**&#x200B;を選択します。
+
+     Customer Journey Analyticsでスコアを有効にすると、モデルが削除されない限り、この設定を無効にできません。
 
    * **[!UICONTROL Granular Insights Reporting Fields]** セクションの[詳細インサイト レポート フィールド &#x200B;](/help/models/build.md#granular-insights-reporting-fields)を更新するには：
      1. **[!UICONTROL Includes]**&#x200B;の下の&#x200B;**[!UICONTROL _調和フィールド_]**&#x200B;から1つ以上の調和フィールドを選択します。 選択した調和フィールドがパネルに追加されます。

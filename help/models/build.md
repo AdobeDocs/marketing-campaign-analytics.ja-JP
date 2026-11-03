@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 803bbfb863f55ef5d043c1e1592acd8c6d4bab44
+source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
 workflow-type: tm+mt
-source-wordcount: '1903'
-ht-degree: 7%
+source-wordcount: '2134'
+ht-degree: 8%
 ---
 # モデルを構築
 
@@ -96,7 +96,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
    >
    >重複するデータを持つタッチポイントを使用してモデルを設定することはできず、支出を含むタッチポイントが少なくとも1つ必要です。
 
-1. デフォルトでは、調和ビューのすべてのデータに対してスコアが生成されます。 母集団のサブセットのみをスコアリングするには、**[!UICONTROL Eligible data population]** セクションのコンテナを使用して1つ以上のフィルターを定義します。
+1. デフォルトでは、調和ビューのすべてのデータに対してスコアが生成されます。 母集団のサブセットのみをスコアリングするには、**[!UICONTROL Eligible data population]** セクションのコンテナを使用して、1つ以上のフィルターを定義します。
 
    ![&#x200B; モデル – 対象となるデータ母集団](/help/assets/model-eligible-data-population-step.png)
 
@@ -140,11 +140,11 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
      ![&#x200B; モデル – 因子ステップ funnel](../assets/model-factors-dataset-step-funnel.png)
 
-     * 因果関係を定義するには、**[!UICONTROL Causal relationship]** s テーブルで、チャネル （**[!UICONTROL Source]**）ごとに![SelectBox](/help/assets/icons/SelectBox.svg)を選択します。チャネルによって、上位コンバージョン KPI （**[!UICONTROL Full funnel modeling]** セクションで&#x200B;**[!UICONTROL Upper funnel conversion]**&#x200B;として選択）と下位コンバージョン KPI （**[!UICONTROL Conversion goal]** セクションで&#x200B;**[!UICONTROL Conversion]**&#x200B;として選択）が影響を受けるかどうかを選択します。
+     * 因果関係を定義するには、**[!UICONTROL Causal relationship]** s テーブルで、各チャネル（**[!UICONTROL Source]**）の![SelectBox](/help/assets/icons/SelectBox.svg)を選択し、チャネルがコンバージョンのKPIの上下に影響を与えるかどうかを示します。
 
        上位コンバージョン KPIと下位コンバージョン KPIの列ヘッダーを![SelectBox](/help/assets/icons/SelectBox.svg)選択して、すべてのチャネルがKPIに影響を与えることをすばやく定義できます。
 
-     * 因子を定義したら、因子の因果関係を定義します。 ギャップの因果関係を定義するには、**[!UICONTROL Factor causal relationships]** テーブルで、各係数（**[!UICONTROL Factor]**）に対して![SelectBox](/help/assets/icons/SelectBox.svg)を選択し、**[!UICONTROL Full funnel modeling]** セクションで&#x200B;**[!UICONTROL Upper funnel conversion]**&#x200B;として選択した上位コンバージョン KPIと&#x200B;**[!UICONTROL Conversion goal]** セクションで&#x200B;**[!UICONTROL Conversion]**&#x200B;として選択した下位コンバージョン KPIが係数の影響を受けるかどうかを指定します。
+     * 因子を定義したら、因子の因果関係を定義します。 因子の因果関係を定義するには、**[!UICONTROL Factor causal relationships]** テーブルで、各因子（**[!UICONTROL Factor]**）に![SelectBox](/help/assets/icons/SelectBox.svg)を選択し、因子がコンバージョン KPIの上下に影響を与えるかどうかを示します。
 
        上位コンバージョン KPIと下位コンバージョン KPIの列ヘッダーを![SelectBox](/help/assets/icons/SelectBox.svg)選択して、すべての要因がKPIに影響を与えることをすばやく定義できます。
 
@@ -168,7 +168,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
    * **[!UICONTROL Manually input a training window]**. 選択すると、**[!UICONTROL Include events the following years prior to a conversion]**&#x200B;の年数を定義します。
 
-   この入力はモデルに必要です。 **[!UICONTROL Advanced]** ステップで設定できるチャネル アドストックの上限を設定する年数です。
+   この入力はモデルに必要です。 年の数によって、**[!UICONTROL Advanced]** ステップで設定できるチャネル アドストックの上限を設定する方法が決まります。
 
 1. **[!UICONTROL Next]**&#x200B;を選択して次の手順に進みます。 追加の設定が必要な場合は、赤いアウトラインとテキストで、追加の設定が必要な内容を説明します。 <br/>前の手順に戻るには、**[!UICONTROL Back]**&#x200B;を選択します。 <br/> モデル設定をキャンセルするには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
@@ -195,7 +195,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 * この設定は、特に次のシナリオで推奨されます。
   * チャネルには十分な観測値がありません（たとえば、購入頻度が低い、インプレッション数やクリック数など）。
-  * 例えば、データが希薄なメディア（一部のブランドではTVなど）を日常的に使用し、急上昇を遂げているメディアを制作します。
+  * 例えば、データが希薄な、スパイク的だが定期的な、あるいは高額の費用を費やす可能性のあるメディア（一部のブランドではTVなど）をモデル化します。
 
   >[!NOTE]
   >
@@ -234,7 +234,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 **[!UICONTROL Channel adstock]** セクションでは、モデルで定義した各チャネル（マーケティングチャネル）に対して、個別のadstock ルックバック（キャリーオーバーまたはディケイ効果）とラグ（遅延応答時間）を定義できます。
 
-このチャネル広告設定では、さまざまなマーケティングチャネルが長期的なビジネス成果に与える影響を、きめ細かく制御できます。 あるいは、システムのデフォルト設定と画一的な設定を使用することもできます。
+このチャネル広告設定では、さまざまなマーケティングチャネルが長期的なビジネス成果に与える影響を、きめ細かく制御できます。 または、システムのデフォルト設定と標準設定を使用することもできます。
 
 チャネル広告の設定は、チャネル固有のニュアンスをキャプチャするのに役立ちます。 例えば、TV キャンペーンの長期的な影響、有料検索の短期的な影響、インフルエンサーの支出と観察可能なコンバージョンのタイムラグなどがあります。 Adobe Stockのルックバックパラメーターとラグパラメーターを試して、より正確でカスタマイズされた、信頼できるインサイトを生成することができます。 最終的に、チャネル広告の設定により、より正確な予算配分と優れたビジネス上の意思決定がもたらされます。
 
@@ -246,7 +246,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 * 各チャネル （**[!UICONTROL Name]**）に対して、**[!UICONTROL Lag (weeks)]**、**[!UICONTROL Min Lookback (weeks)]**、**[!UICONTROL Max Lookback (weeks)]**&#x200B;の値を定義します。 各値について：
 
-  * 値を増やすには![Add](/help/assets/icons/Add.svg)を使用し、値を減らすには![Subtract](/help/assets/icons/Subtract.svg)を使用するか、手動で値を入力します。
+  * 値を増やすには、![Add](/help/assets/icons/Add.svg)；を使用して値を減らし、![Subtract](/help/assets/icons/Subtract.svg)を使用するか、値を手動で入力します。
 
   ラグ週の合計とチャネルごとの最大ルックバック週の合計は、設定されたトレーニングウィンドウの1/8に上限が設定されます。 このキャップにより、モデルが広告ストック効果を学習するのに十分なデータが得られます。 例えば、2年間のトレーニングウィンドウの場合、チャネルの最大&#x200B;**[!UICONTROL Lag (weeks)]**&#x200B;と&#x200B;**[!UICONTROL Lookback (weeks)]**&#x200B;は13週間です。 このキャップは、値を定義するときに適用されます。
 
@@ -278,6 +278,38 @@ AIを活用したカスタムモデルを構築するために、インターフ
 1. ドロップダウンメニューから&#x200B;**[!UICONTROL Training frequency]**&#x200B;を選択します：**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、または&#x200B;**[!UICONTROL None]**。
 
 
+### Customer Journey Analytics {#cja}
+
+
+>[!CONTEXTUALHELP]
+>id="model_enable_cja"
+>title="Customer Journey Analytics を有効にする"
+>abstract="Customer Journey Analyticsでスコアデータをレポートと分析に使用できるようにするには、この設定を有効にします。 有効にすると、この設定を無効にするには、モデルを削除する必要があります。"
+
+Customer Journey Analyticsの使用権限があり、特定のサンドボックスでMarketing Campaign Analytics用に1つ以上の[&#x200B; データセットルール &#x200B;](/help/harmonize-data/dataset-rules.md)を作成した場合：
+
+* Experience Platform サンドボックスには、2つの専用のMarketing Campaign Analytics データセットが作成されます。
+* 専用のMarketing Campaign Analytics データセットを含むCustomer Journey Analytics [connection](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-connections/overview)、**[!UICONTROL Marketing Campaign Analytics Enabled Connection (_sandbox-name _）]**&#x200B;が作成されます。
+* 接続に基づいて、**[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _）]**&#x200B;というタイトルのCustomer Journey Analytics [&#x200B; データビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views)が作成されます。
+
+接続とデータビューの両方がシステム所有です。 接続またはデータビューを更新または削除できません。
+
+上記のデータセット、接続、データビューを通じて、モデルスコアデータをCustomer Journey Analyticsで利用できるようにするには、次の手順を実行します。
+
+* **[!UICONTROL Enable scores for Customer Journey Analytics]** を選択します。
+
+  この設定を有効にすると、モデルを削除することによってのみ設定を無効にできます。
+
+Marketing Campaign Analytics データを迅速にレポートおよび分析するには、Customer Journey Analytics [workspace プロジェクト &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)で次の操作を行います。
+
+1. **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**&#x200B;を選択します。
+1. プロジェクトに使用するデータビューとして、専用の&#x200B;**[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _）]**&#x200B;を選択します。
+1. **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [&#x200B; テンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates)を選択します。
+   * **[!UICONTROL Preview]**&#x200B;を選択してプレビューを表示します。
+
+     ![Marketing Campaign Analytics テンプレートのプレビュー](/help/assets/model-cja-enable-template.png)
+   * テンプレートに基づいてプロジェクトを作成するには、**[!UICONTROL Use template]**&#x200B;を選択します。
+
 ### 詳細なインサイトのレポートフィールド
 
 **[!UICONTROL Granular insights reporting fields]** セクションでは、きめ細かい増分レポート機能を使用しています。 この機能を使用すると、調整されたフィールドを選択して、コンバージョンとタッチポイントの増分スコアを分解できます。
@@ -286,7 +318,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 調和のとれたフィールドを定義することで、個別のモデルを作成する代わりに、詳細なレポート列を使用してモデルのレポートをドリルダウンできます。
 
-例えば、収益に焦点を当てながら、キャンペーン、メディアタイプ、地域、トラフィックソースのパフォーマンスにも関心を持っているモデルを構築します。 きめ細かい増分レポート機能がなければ、4つの個別のモデルを構築する必要があります。 きめ細かい増分レポート機能を使用すると、キャンペーン、メディアタイプ、地域、トラフィックソースごとに収益モデルを分類できます。
+例えば、収益に焦点を当てたモデルを構築する一方で、キャンペーン、メディアタイプ、地域、トラフィックソースのパフォーマンスにも関心を持っています。 きめ細かい増分レポート機能がなければ、4つの個別のモデルを構築する必要があります。 きめ細かい増分レポート機能を使用すると、キャンペーン、メディアタイプ、地域、トラフィックソースごとに収益モデルを分類できます。
 
 1. **[!UICONTROL Includes]**&#x200B;の下の&#x200B;**[!UICONTROL _調和フィールド_]**&#x200B;から1つ以上の調和フィールドを選択します。 選択した調和フィールドがパネルに追加されます。
 1. **[!UICONTROL *調和フィールド&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択して、選択した調和フィールドを含む調和フィールドをコンテナから削除します。
