@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: c75532d37a87f39cb61eabd58333b39895cf3a69
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1329'
 ht-degree: 0%
 ---
 # モデルの概要
@@ -49,7 +49,7 @@ Marketing Campaign Analyticsのモデル機能を使用すると、ビジネス�
 
 モデルは、アプリケーションワークフローの一部として作成した調整済みデータに基づいています。
 
-Marketing Campaign Analyticsのモデルは、マーケターの投資にもとづいて、特定の結果を測定および予測するために使用されるマシンラーニングモデルです。 マーケティングのタッチポイントや概要レベルのデータを入力として利用できます。 Marketing Campaign Analyticsを活用すれば、様々な変数、ディメンション、結果（収益、販売個数、リードなど）のセットにもとづいてモデルのバリエーションを作成できます。
+Marketing Campaign Analyticsのモデルは、マーケティングへの投資にもとづいて特定の結果を測定および予測するために使用されるマシンラーニングモデルです。 マーケティングのタッチポイントや概要レベルのデータを入力として利用できます。 Marketing Campaign Analyticsを活用すれば、様々な変数、ディメンション、結果（収益、販売個数、リードなど）のセットにもとづいてモデルのバリエーションを作成できます。
 
 モデルには次のものが必要です。
 
@@ -62,10 +62,10 @@ Marketing Campaign Analyticsのモデルは、マーケターの投資にもと�
 
 * 外部要因：
 * 内部要因：
-* 過去のステークホルダーの経験、段階的テスト、その他のモデルなど、他のソースからのマーケティング貢献度に関する事前知識。
+* 過去のステークホルダーの経験、増分テスト、その他のモデルなど、他のソースからのマーケティング貢献度に関する事前知識。
 * 支出分担：マーケティングデータがスパースの場合、相対的な支出分担をプロキシとして使用します
 
-モデルが最初に作成されると、すぐにトレーニングとスコアリングのプロセスが開始されます。 最初のトレーニングとスコアリングの実行が完了すると、モデルインサイトをレビューできます。 モデルは後で再訓練される可能性があります。 また、データがモデルに追加される場合があり、モデルを手動で再分割する必要があります。 リトレーニングとリスコアリングは、新たな知見や情報の獲得につながる反復的なプロセスです。ビジネス目標に最も適したモデルフィットを得るためには、調整が必要です。
+モデルが最初に作成されると、すぐにトレーニングとスコアリングのプロセスが開始されます。 最初のトレーニングとスコアリングの実行が完了すると、モデルインサイトをレビューできます。 モデルはその後に再訓練されます。 また、モデルにデータを追加する場合、モデルの手動リソースコアが必要になります。 リトレーニングとリスコアリングは、新たな知見や情報の獲得につながる反復的なプロセスです。ビジネス目標に最も適したモデルフィットを得るためには、調整が必要です。
 
 ## Funnelのフルモデリング
 
@@ -81,11 +81,11 @@ Marketing Campaign Analyticsのモデルは、マーケターの投資にもと�
 Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、多くの場合、優れた戦術に対する貢献度は低くなります。 Funnelの完全なモデリングを利用すれば、次のことを把握できます。
 
 * Funnelの上位の目標に貢献したメディアとマーケティング戦術。
-* どのメディアとマーケティング戦術がコンバージョン目標に間接的な影響を与えたか。 Funnelモデルの上部の重みづけは、funnelモデルの下部の入力であり、関連するメディアやマーケティング戦術により高い重みづけを与えます。
+* どのメディアとマーケティング戦術がコンバージョン目標に間接的な影響を与えたか。 Funnelモデルの上部の重みは、funnelモデルの下部への入力であり、関連するメディアやマーケティング戦術により高い重みを与えます。
 
 ## モデルを構築
 
-モデルを構築するには、**[!UICONTROL Open model canvas]**&#x200B;を選択するときに利用できるMarketing Campaign Analyticsのステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[&#x200B; モデルの構築](build.md)を参照してください。
+モデルを構築するには、**[!UICONTROL Open model canvas]**&#x200B;を選択するときに利用できるMarketing Campaign Analyticsのステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[ モデルの構築](build.md)を参照してください。
 
 ## モデルの管理
 
@@ -108,7 +108,7 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
 
    昇順![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg)または降順![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg)の任意の列でテーブルを並べ替えるには、列のタイトルを選択します。
 
-   **[!UICONTROL Name]**&#x200B;列を並べ替えたり、サイズを変更したりするには、**[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg)を選択します。 コンテキストメニューから、**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**、または&#x200B;**[!UICONTROL Resize column]**&#x200B;を選択します。 または、列区切り記号にカーソルを合わせて&#x200B;**[!UICONTROL Name]**&#x200B;列のサイズを変更することもできます。
+   **[!UICONTROL Name]**&#x200B;列を並べ替えたり、サイズを変更したりするには、**[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg)を選択します。 コンテキストメニューから、**[!UICONTROL Sort ascending]**、**[!UICONTROL Sort descending]**、または&#x200B;**[!UICONTROL Resize column]**&#x200B;を選択します。 **[!UICONTROL Name]**&#x200B;列のサイズを変更するには、列の区切り記号にカーソルを合わせます。
 
    レポートされるモデルのステータスは、モデルがライフサイクル内のどの段階にあるかによって異なります。 例えば、モデルが作成されたか、（再）トレーニングが成功したか否か、または（再）スコアリングが成功したかどうかを示します。
 
@@ -118,25 +118,25 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
    * ![時計](/help/assets/icons/Clock.svg) - モデル ライフサイクルのステップの現在の進行中の実行を示します。
    * ![閉じる](/help/assets/icons/Close.svg) - モデル ライフサイクルのステップの実行に失敗したことを示します。
 
-   | ステータス | [&#x200B; ビルド &#x200B;](/help/models/build.md) | [&#x200B; トレーニング &#x200B;](/help/models/train-score.md#train) | [スコア](/help/models/train-score.md#score) | [再トレーニング &#x200B;](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
+   | ステータス | [ ビルド ](/help/models/build.md) | [ トレーニング ](/help/models/train-score.md#train) | [スコア](/help/models/train-score.md#score) | [再トレーニング ](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | | | | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) |
-   | トレーニングに失敗しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | | |
-   | トレーニングに失敗しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | |
-   | トレーニングの成功 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | | | |
-   | トレーニングの成功 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | |
-   | スコアリング失敗 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | |
-   | スコアリング失敗 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) |
-   | スコアリングに成功しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | | |
-   | スコアリングに成功しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) |
+   | トレーニングに失敗しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | | |
+   | トレーニングに失敗しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | |
+   | トレーニングの成功 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | | |
+   | トレーニングの成功 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | |
+   | スコアリング失敗 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | |
+   | スコアリング失敗 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) |
+   | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | |
+   | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) |
 
    {style="table-layout:fixed"}
 
-1. リストに表示される列を変更するには、![列設定](/help/assets/icons/ColumnSetting.svg)を選択し、![&#x200B; チェック &#x200B;](/help/assets/icons/Checkmark.svg)またはオフで列を切り替えます。
+1. リストに表示される列を変更するには、![列設定](/help/assets/icons/ColumnSetting.svg)を選択し、![ チェック ](/help/assets/icons/Checkmark.svg)またはオフで列を切り替えます。
 
 特定のモデルに対して次のアクションを実行できます。
 
@@ -149,7 +149,7 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
 1. 左側のパネルから「![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**」を選択します。
 1. モデル名を選択します。
 
-「[&#x200B; モデルインサイト &#x200B;](insights.md)」にリダイレクトされます。
+「[ モデルインサイト ](insights.md)」にリダイレクトされます。
 
 ### 詳細を表示
 
@@ -182,7 +182,7 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
 
    **[!UICONTROL Edit model]** ダイアログで、次の操作を行います。
 
-   ![&#x200B; モデルの編集](../assets/model-edit.png)
+   ![ モデルの編集](../assets/model-edit.png)
 
    * 新しい&#x200B;**[!UICONTROL Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力してください。
 
@@ -196,7 +196,13 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
 
      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Training frequency]**&#x200B;を選択します：**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、または&#x200B;**[!UICONTROL None]**。
 
-   * **[!UICONTROL Granular Insights Reporting Fields]** セクションの[詳細インサイト レポート フィールド &#x200B;](/help/models/build.md#granular-insights-reporting-fields)を更新するには：
+   * フル funnel モデルが有効になっている場合は、無効になっているフル funnel アトリビューションが表示されます。 この設定は変更できません。
+
+   * Customer Journey Analytics](build.md#customer-journey-analytics)でスコアデータを利用できるようにするには、**[!UICONTROL Enable scores for Customer Journey Analytics]**&#x200B;を選択します。[
+
+     Customer Journey Analyticsでスコアを有効にすると、モデルが削除されない限り、この設定を無効にできません。
+
+   * **[!UICONTROL Granular Insights Reporting Fields]** セクションの[詳細インサイト レポート フィールド ](/help/models/build.md#granular-insights-reporting-fields)を更新するには：
      1. **[!UICONTROL Includes]**&#x200B;の下の&#x200B;**[!UICONTROL _調和フィールド_]**&#x200B;から1つ以上の調和フィールドを選択します。 選択した調和フィールドがパネルに追加されます。
      1. **[!UICONTROL *調和フィールド&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択して、選択した調和フィールドを含む調和フィールドをコンテナから削除します。
      1. 選択したすべての調和フィールドを削除するには、**[!UICONTROL Clear all]**&#x200B;を選択します。
@@ -210,11 +216,11 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
 
 ### トレーニング
 
-新しい増分マーケティングや要因データを含める場合に、モデルを保持する。 詳しくは、[&#x200B; モデルのトレーニングとスコアモデル &#x200B;](train-score.md#train)を参照してください。
+新しい増分マーケティングや要因データを含める場合に、モデルを保持する。 詳しくは、[ モデルのトレーニングとスコアモデル ](train-score.md#train)を参照してください。
 
 ### Score
 
-新しいマーケティングデータにもとづいてモデルを段階的にスコアリングしたり、特定の日付範囲に合わせてモデルをスコアリングしたりできます。 詳しくは、[&#x200B; モデルのトレーニングとスコアモデル &#x200B;](train-score.md#score)を参照してください。
+新しいマーケティングデータにもとづいてモデルを段階的にスコアリングしたり、特定の日付範囲に合わせてモデルをスコアリングしたりできます。 詳しくは、[ モデルのトレーニングとスコアモデル ](train-score.md#score)を参照してください。
 
 ### モデルの削除
 
@@ -228,5 +234,5 @@ Funnelでは、コンバージョンに焦点を当てたMMM モデルでは、�
 
 1. 複数のモデルを選択。
 1. 青いアクションバーから、![削除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;を選択して、モデルを削除します。
-1. **[!UICONTROL Delete *x *モデル]**&#x200B;の確認ダイアログで&#x200B;**[!UICONTROL Delete]**&#x200B;を選択して、モデルを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択してください。
+1. **[!UICONTROL Delete *x *モデル]**の確認ダイアログで&#x200B;**[!UICONTROL Delete]**を選択して、モデルを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**を選択してください。
 
