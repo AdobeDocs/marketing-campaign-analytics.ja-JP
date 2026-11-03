@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -280,11 +280,12 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Customer Journey Analytics を有効にする"
 >abstract="Customer Journey Analyticsでスコアデータをレポートと分析に使用できるようにするには、この設定を有効にします。 有効にすると、この設定を無効にするには、モデルを削除する必要があります。"
+
+{{release-limited-testing-section}}
 
 Customer Journey Analyticsの使用権限があり、特定のサンドボックスでMarketing Campaign Analytics用に1つ以上の[&#x200B; データセットルール &#x200B;](/help/harmonize-data/dataset-rules.md)を作成した場合：
 
