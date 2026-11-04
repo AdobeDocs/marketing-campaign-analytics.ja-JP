@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: 5dfbd7542422d93969c2ffe44475d847693e8910
 workflow-type: tm+mt
-source-wordcount: '3099'
-ht-degree: 11%
+source-wordcount: '3122'
+ht-degree: 10%
 ---
 # モデルインサイト
 
@@ -154,6 +154,8 @@ ht-degree: 11%
 >[!ENDTABS]
 
 任意のフローにカーソルを合わせると、funnelの特定のフローの詳細が表示されるポップアップが表示されます。
+
+選択したfunnelの上部コンバージョン（[&#x200B; コンバージョン &#x200B;](/help/harmonize-data/conversions.md)で定義）に関連付けられているチャネルが、ビジュアライゼーションの中央に表示されます（例：**[!UICONTROL Store]**）。
 
 ### 顧客接点の内訳
 
