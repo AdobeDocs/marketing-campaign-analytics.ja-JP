@@ -305,7 +305,7 @@ Marketing Campaign Analytics データを迅速にレポートおよび分析す
 
 1. **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**&#x200B;を選択します。
 1. プロジェクトに使用するデータビューとして、専用の&#x200B;**[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _）]**&#x200B;を選択します。
-1. **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [&#x200B; テンプレート &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates)を選択します。
+1. **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [&#x200B; テンプレート &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates)を選択します。
    * **[!UICONTROL Preview]**&#x200B;を選択してプレビューを表示します。
 
      ![Marketing Campaign Analytics テンプレートのプレビュー](/help/assets/model-cja-enable-template.png)
