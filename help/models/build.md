@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
-ht-degree: 8%
+ht-degree: 10%
 ---
 # モデルを構築
 
@@ -283,7 +283,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Customer Journey Analytics を有効にする"
->abstract="Customer Journey Analyticsでスコアデータをレポートと分析に使用できるようにするには、この設定を有効にします。 有効にすると、この設定を無効にするには、モデルを削除する必要があります。"
+>abstract="Customer Journey Analytics でスコアデータをレポートと分析に使用できるようにするには、この設定を有効にします。 有効にすると、この設定を無効にするには、モデルを削除する必要があります。"
 
 {{release-limited-testing-section}}
 
